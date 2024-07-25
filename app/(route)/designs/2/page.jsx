@@ -5,7 +5,6 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Prism from 'prismjs';
 import 'prismjs/themes/prism.css';
-import 'tailwindcss/tailwind.css';
 import { useToast } from '@/components/ui/use-toast';
 
 const DesignB = () => {

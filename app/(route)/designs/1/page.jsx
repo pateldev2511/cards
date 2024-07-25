@@ -4,7 +4,6 @@
 import React, { useState, useEffect } from 'react';
 import Prism from 'prismjs';
 import 'prismjs/themes/prism.css';
-import 'tailwindcss/tailwind.css';
 import Link from 'next/link';
 import { useToast } from "@/components/ui/use-toast"
 

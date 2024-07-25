@@ -1,6 +1,7 @@
 import { Instrument_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "./_components/Navbar";
+import { Toaster } from "@/components/ui/toaster"
 
 const instrumentSans = Instrument_Sans({ subsets: ["latin"] });
 
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
       <body className={instrumentSans.className}>
         <Navbar />
         {children}
+        <Toaster />
       </body>
     </html>
   );

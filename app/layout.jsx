@@ -13,10 +13,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={instrumentSans.className}>
+      <body className={`${instrumentSans.className} relative h-screen w-screen`}>
+          
         <Navbar />
         {children}
         <Toaster />
+       
+       
       </body>
     </html>
   );

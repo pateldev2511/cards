@@ -37,14 +37,14 @@ const DesignB = () => {
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css">
   <style>
     .section {
+      position: relative;
+      height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 100vh;
       text-align: center;
       font-size: 3em;
       color: white;
-      position: relative;
     }
     .section::before {
       content: '';
@@ -54,33 +54,51 @@ const DesignB = () => {
       width: 100%;
       height: 100%;
       background: rgba(0, 0, 0, 0.5); /* Dark grey tint */
-      z-index: 1;
+      z-index: 0;
     }
-    .section > * {
+    .section .content {
       position: relative;
-      z-index: 2;
+      z-index: 1;
     }
     .bg-image1 { background: url('https://images.pexels.com/photos/414144/pexels-photo-414144.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center/cover; }
     .bg-image2 { background: url('https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center/cover; }
     .bg-image3 { background: url('https://images.pexels.com/photos/3573603/pexels-photo-3573603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center/cover; }
     .bg-image4 { background: url('https://images.pexels.com/photos/552788/pexels-photo-552788.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center/cover; }
+    .fp-slidesNav {
+      bottom: 20px !important;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1;
+    }
   </style>
 </head>
 <body>
   <div id="fullpage">
-    <div class="section bg-image1">Page 1</div>
-    <div class="section">
-      <div class="slide bg-image2">Slide 1</div>
-      <div class="slide bg-image3">Slide 2</div>
+    <div class="section bg-image1">
+      <div class="content">Page 1</div>
     </div>
-    <div class="section bg-image4">Page 3</div>
+    <div class="section">
+      <div class="slide bg-image2">
+        <div class="content">Slide 1</div>
+      </div>
+      <div class="slide bg-image3">
+        <div class="content">Slide 2</div>
+      </div>
+    </div>
+    <div class="section bg-image4">
+      <div class="content">Page 3</div>
+    </div>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/vendors/scrolloverflow.min.js"></script>
   <script>
     new fullpage('#fullpage', {
       autoScrolling: true,
       navigation: true,
       slidesNavigation: true,
+      controlArrows: true,
+      scrollHorizontally: true,
+      dragAndMove: true,
     });
   </script>
 </body>

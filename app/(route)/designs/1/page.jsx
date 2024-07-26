@@ -107,7 +107,7 @@ export default FullPageDemo;
   return (
     
       <div className="h-screen flex flex-col">
-        <div className="flex justify-center space-x-4 py-4 bg-gradient-to-r from-gray-100 to-gray-300">
+        <div className="flex justify-center space-x-4 py-4 ">
           <Link
             href="#_"
             className={`relative rounded px-5 py-2.5 overflow-hidden group ${

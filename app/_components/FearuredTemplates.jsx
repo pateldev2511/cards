@@ -13,7 +13,8 @@ const templates = [
 
 const FeaturedTemplates = () => {
   return (
-    <div className="flex flex-col min-h-[100dvh] bg-slate-100">
+    <div className="flex flex-col min-h-[100dvh]">
+        
       <main className="flex-1">
         <h2
         className='w-full text-4xl text-center p-4 font-bold mt-8 text-blue-500'>
@@ -26,7 +27,7 @@ const FeaturedTemplates = () => {
                 <Link
                   key={template.id}
                   href={template.path}
-                  className="group relative overflow-hidden rounded-lg bg-muted/20 transition-all hover:bg-muted/40 focus:bg-muted/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 bg-white shadow-md"
+                  className="group relative overflow-hidden rounded-lg bg-muted/20 transition-all hover:bg-muted/30 focus:bg-muted/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 bg-white shadow-md"
                   prefetch={false}
                 >
                   <div className="aspect-[4/3] overflow-hidden">

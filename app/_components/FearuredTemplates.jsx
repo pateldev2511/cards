@@ -101,42 +101,44 @@ const Card = ({
 }) => {
   const [hovered, setHovered] = React.useState(false);
   return (
-    <div
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
-      className="border border-black/[0.2] group/canvas-card bg-zinc-950 flex items-center justify-center dark:border-white/[0.2] max-w-sm w-full mx-auto p-4 relative h-[30rem] overflow-hidden hover:cursor-pointer"
-    >
-      <AnimatePresence>
-        {hovered && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="h-full w-full absolute inset-0"
-          >
-            <CanvasRevealEffect
-              animationSpeed={3}
-              containerClassName="bg-black"
-              colors={colors}
-              dotSize={2}
-            />
-            <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
-          </motion.div>
-        )}
-      </AnimatePresence>
+    <Link href={path} passHref>
+      <div
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
+        className="border border-black/[0.2] group/canvas-card bg-zinc-950 flex items-center justify-center dark:border-white/[0.2] max-w-sm w-full mx-auto p-4 relative h-[30rem] overflow-hidden hover:cursor-pointer"
+      >
+        <AnimatePresence>
+          {hovered && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="h-full w-full absolute inset-0"
+            >
+              <CanvasRevealEffect
+                animationSpeed={3}
+                containerClassName="bg-black"
+                colors={colors}
+                dotSize={2}
+              />
+              <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
+            </motion.div>
+          )}
+        </AnimatePresence>
 
-      <div className="relative z-20 text-center p-4">
-        <div className="mx-auto flex items-center justify-center">
-          {icon}
+        <div className="relative z-20 text-center p-4">
+          <div className="mx-auto flex items-center justify-center">
+            {icon}
+          </div>
+          <h2 className="dark:text-black text-xl group-hover/canvas-card:opacity-100 relative z-10 text-white mt-4 font-bold transition duration-200">
+            {title}
+          </h2>
+          <p className="dark:text-gray-800 text-sm group-hover/canvas-card:opacity-100 relative z-10 text-gray-200 mt-2 transition duration-200">
+            {description}
+          </p>
         </div>
-        <h2 className="dark:text-white text-xl group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4 font-bold transition duration-200">
-          {title}
-        </h2>
-        <p className="dark:text-gray-200 text-sm group-hover/canvas-card:opacity-100 relative z-10 text-gray-300 mt-2 transition duration-200">
-          {description}
-        </p>
       </div>
-    </div>
+    </Link>
   );
 };
 

@@ -12,6 +12,7 @@ import {
   GalleryVerticalEnd,
   AppWindow,
 } from "lucide-react";
+import BlurShinyBackground from "./BlurShinyBackground";
 
 const templates = [
   {
@@ -67,6 +68,7 @@ const templates = [
 const FeaturedTemplates = () => {
   return (
     <div className="flex flex-col min-h-[100dvh] bg-black relative">
+      <BlurShinyBackground className="absolute inset-0 z-0" />
       <main className="flex-1 z-10">
         <h2 className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl">
           Featured Templates

@@ -38,13 +38,13 @@ const Navbar = () => {
         </div>
         <div className="hidden lg:flex lg:items-center lg:justify-between w-full lg:w-auto">
           <div className="flex flex-col lg:flex-row items-center lg:space-x-4">
-            <Link href="/about" className="px-2.5 py-2 text-gray-200 transition-colors duration-300 transform hover:scale-105 lg:mx-2 rounded-xl border border-gray-800 bg-primary">
+            <Link href="/about" className="px-2.5 py-2 text-gray-200 duration-300 transform hover:scale-105 lg:mx-2 transition-all ease-in-out">
               About
             </Link>
-            <Link href="/contact" className="px-2.5 py-2 text-gray-200 transition-colors duration-300 transform hover:scale-105 lg:mx-2 rounded-xl border border-gray-800 bg-primary">
+            <Link href="/contact" className="px-2.5 py-2 text-gray-200 duration-300 transform hover:scale-105 lg:mx-2 transition-all ease-in-out">
               Contact
             </Link>
-            <Link href="/" className="flex px-2.5 py-2 text-gray-200 transition-colors duration-300 transform hover:scale-105 lg:mx-2 items-center justify-center rounded-full border border-zinc-800 bg-zinc-900">
+            <Link href="/" className="flex p-3 text-gray-200 duration-300 transform hover:scale-105 lg:mx-2 items-center justify-center rounded-full border border-zinc-900 bg-zinc-950 transition-all ease-in-out">
               <HomeIcon className="w-6 h-6"/>
             </Link>
           </div>

@@ -15,9 +15,10 @@ const BlurShinyBackground = React.memo(({ className }) => {
         className="z-0 h-full w-full pointer-events-none absolute"
         width="100%"
         height="100%"
-        viewBox="0 0 696 316"
+        viewBox="0 0 1440 1024" // Updated viewBox to cover larger area
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="xMidYMid slice" // Ensures scaling
       >
         {/* Static path for the background */}
         <path
@@ -43,18 +44,18 @@ const BlurShinyBackground = React.memo(({ className }) => {
             stroke={`url(#linearGradient-${index})`}
             strokeOpacity="0.4"
             strokeWidth="0.5"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{
-              duration: 10,
-              ease: "easeInOut",
-              repeat: Infinity,
-              repeatType: "mirror",
-              delay: 0.5, // Stagger effect
-            }}
-          />
-        ))}
-            <defs>
+initial={{ opacity: 0 }}
+animate={{ opacity: 1 }}
+transition={{
+duration: 10,
+ease: "easeInOut",
+repeat: Infinity,
+repeatType: "mirror",
+delay: 0, // Removed stagger effect for instant start
+}}
+/>
+))}
+    <defs>
       {/* Define linear gradients for each path */}
       {Array.from({ length: 50 }).map((_, index) => (
         <motion.linearGradient
@@ -76,7 +77,7 @@ const BlurShinyBackground = React.memo(({ className }) => {
             duration: Math.random() * 10 + 10,
             ease: "easeInOut",
             repeat: Infinity,
-            delay: Math.random() * 10,
+            delay: 0,
           }}
         >
           <stop stopColor="#18CCFC" stopOpacity="0" />
@@ -92,7 +93,7 @@ const BlurShinyBackground = React.memo(({ className }) => {
         cy="0"
         r="1"
         gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(352 34) rotate(90) scale(555 1560.62)"
+        gradientTransform="translate(720 450) rotate(90) scale(720 1200)" // Adjusted for better coverage
       >
         <stop offset="0.0666667" stopColor="var(--neutral-300)" />
         <stop offset="0.243243" stopColor="var(--neutral-300)" />

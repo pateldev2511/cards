@@ -1,11 +1,10 @@
 'use client';
 
-// components/DesignA.js
 import React, { useState, useEffect } from 'react';
 import Prism from 'prismjs';
 import 'prismjs/themes/prism.css';
 import Link from 'next/link';
-import { useToast } from "@/components/ui/use-toast"
+import { useToast } from "@/components/ui/use-toast";
 
 const DesignA = () => {
   const [activeTab, setActiveTab] = useState('preview');
@@ -105,89 +104,88 @@ export default FullPageDemo;
   `;
 
   return (
-    
-      <div className="h-screen flex flex-col">
-        <div className="flex justify-center space-x-4 py-4 ">
-          <Link
-            href="#_"
-            className={`relative rounded px-5 py-2.5 overflow-hidden group ${
-              activeTab === 'preview' ? 'bg-blue-500 text-white' : 'bg-gray-100 text-black'
-            } relative hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 hover:text-white hover:ring-2 hover:ring-offset-2 hover:ring-blue-400 transition-all ease-out duration-300`}
-            onClick={() => setActiveTab('preview')}
-          >
-            <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
-            <span className="relative">Preview</span>
-          </Link>
+    <div className="h-screen flex flex-col">
+      <div className="flex justify-center space-x-4 py-4 bg-gray-900">
+        <Link
+          href="#_"
+          className={`relative rounded px-5 py-2.5 overflow-hidden group ${
+            activeTab === 'preview' ? 'bg-blue-500 text-white' : 'bg-gray-100 text-black'
+          } relative hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-400 hover:text-white hover:ring-2 hover:ring-offset-2 hover:ring-blue-400 transition-all ease-out duration-300 text-sm sm:text-base md:text-lg`}
+          onClick={() => setActiveTab('preview')}
+        >
+          <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
+          <span className="relative">Preview</span>
+        </Link>
 
-          <Link
-            href="#_"
-            className={`relative rounded px-5 py-2.5 overflow-hidden group ${
-              activeTab === 'html' ? 'bg-orange-500 text-white' : 'bg-gray-100 text-black'
-            } relative hover:bg-gradient-to-r hover:from-orange-500 hover:to-orange-400 hover:text-white hover:ring-2 hover:ring-offset-2 hover:ring-orange-400 transition-all ease-out duration-300`}
-            onClick={() => setActiveTab('html')}
-          >
-            <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
-            <span className="relative">HTML Code</span>
-          </Link>
+        <Link
+          href="#_"
+          className={`relative rounded px-5 py-2.5 overflow-hidden group ${
+            activeTab === 'html' ? 'bg-orange-500 text-white' : 'bg-gray-100 text-black'
+          } relative hover:bg-gradient-to-r hover:from-orange-500 hover:to-orange-400 hover:text-white hover:ring-2 hover:ring-offset-2 hover:ring-orange-400 transition-all ease-out duration-300 text-sm sm:text-base md:text-lg`}
+          onClick={() => setActiveTab('html')}
+        >
+          <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
+          <span className="relative">HTML Code</span>
+        </Link>
 
-          <Link
-            href="#_"
-            className={`relative rounded px-5 py-2.5 overflow-hidden group ${
-              activeTab === 'react' ? 'bg-purple-500 text-white' : 'bg-gray-100 text-black'
-            } relative hover:bg-gradient-to-r hover:from-purple-500 hover:to-purple-400 hover:text-white hover:ring-2 hover:ring-offset-2 hover:ring-purple-400 transition-all ease-out duration-300`}
-            onClick={() => setActiveTab('react')}
-          >
-            <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
-            <span className="relative">React Code</span>
-          </Link>
-        </div>
-        <div className="flex-grow">
-          {activeTab === 'preview' && (
-            <div className="h-full">
-              <iframe
-                src="/fullpage-demo-1.html"
-                title="FullPage.js Demo"
-                className="w-full h-full border-none"
-                style={{ pointerEvents: 'auto' }}
-              />
-            </div>
-          )}
-          {activeTab === 'html' && (
-            <div className="h-full bg-gray-100 flex items-center justify-center">
-              <div className="w-5/6 lg:w-1/2 p-6 bg-white rounded-xl shadow-md">
-                <h2 className="text-2xl font-bold mb-4">HTML Code for FullPage.js Demo</h2>
-                <pre className='rounded-md'>
-                  <code className="language-html">
-                    {htmlCodeSnippet}
-                  </code>
-                </pre>
-                <button 
-                className="inline-block px-5 py-2 mx-auto text-white bg-blue-600 rounded-full hover:bg-blue-700 md:mx-0"
-                onClick={() => handleCopy(reactCodeSnippet)}>
-                Copy Code</button>
-              </div>
-            </div>
-          )}
-          {activeTab === 'react' && (
-            <div className="h-full bg-gray-100 flex items-center justify-center">
-              <div className="w-5/6 lg:w-1/2 p-6 bg-white rounded-xl shadow-md">
-                <h2 className="text-2xl font-bold mb-4">React Code for FullPage.js Demo</h2>
-                <pre className='rounded-md'>
-                  <code className="language-jsx">
-                    {reactCodeSnippet}
-                  </code>
-                </pre>
-                <button 
-                className="inline-block px-5 py-2 mx-auto text-white bg-blue-600 rounded-full hover:bg-blue-700 md:mx-0"
-                onClick={() => handleCopy(reactCodeSnippet)}>
-                Copy Code</button>
-                
-              </div>
-            </div>
-          )}
-        </div>
+        <Link
+          href="#_"
+          className={`relative rounded px-5 py-2.5 overflow-hidden group ${
+            activeTab === 'react' ? 'bg-purple-500 text-white' : 'bg-gray-100 text-black'
+          } relative hover:bg-gradient-to-r hover:from-purple-500 hover:to-purple-400 hover:text-white hover:ring-2 hover:ring-offset-2 hover:ring-purple-400 transition-all ease-out duration-300 text-sm sm:text-base md:text-lg`}
+          onClick={() => setActiveTab('react')}
+        >
+          <span className="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
+          <span className="relative">React Code</span>
+        </Link>
       </div>
-    
+      <div className="flex-grow">
+        {activeTab === 'preview' && (
+          <div className="h-full">
+            <iframe
+              src="/fullpage-demo-1.html"
+              title="FullPage.js Demo"
+              className="w-full h-full border-none"
+              style={{ pointerEvents: 'auto' }}
+            />
+          </div>
+        )}
+        {activeTab === 'html' && (
+          <div className="h-full w-full bg-gray-100 flex items-center justify-center">
+            <div className="w-11/12 md:w-11/12 lg:w-11/12 p-6 bg-white rounded-xl shadow-md">
+              <h2 className="text-2xl font-bold mb-4">HTML Code for FullPage.js Demo</h2>
+              <pre className="rounded-md">
+                <code className="language-html">
+                  {htmlCodeSnippet}
+                </code>
+              </pre>
+              <button 
+                className="inline-block px-5 py-2 mt-4 text-white bg-blue-600 rounded-full hover:bg-blue-700"
+                onClick={() => handleCopy(htmlCodeSnippet)}>
+                Copy Code
+              </button>
+            </div>
+          </div>
+        )}
+        {activeTab === 'react' && (
+          <div className="h-full w-full bg-gray-100 flex items-center justify-center">
+            <div className="w-11/12 md:w-11/12 lg:w-11/12 p-6 bg-white rounded-xl shadow-md">
+              <h2 className="text-2xl font-bold mb-4">React Code for FullPage.js Demo</h2>
+              <pre className="rounded-md">
+                <code className="language-js">
+                  {reactCodeSnippet}
+                </code>
+              </pre>
+              <button 
+                className="inline-block px-5 py-2 mt-4 text-white bg-blue-600 rounded-full hover:bg-blue-700"
+                onClick={() => handleCopy(reactCodeSnippet)}>
+                Copy Code
+              </button>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
   );
 };
 export default DesignA;

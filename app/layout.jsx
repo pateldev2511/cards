@@ -1,9 +1,12 @@
-import { Instrument_Sans } from "next/font/google";
+import { Manrope } from "next/font/google";
 import "./globals.css";
 import Navbar from "./_components/Navbar";
-import { Toaster } from "@/components/ui/toaster"
+import { Toaster } from "@/components/ui/toaster";
 
-const instrumentSans = Instrument_Sans({ subsets: ["latin"] });
+const manrope = Manrope({ 
+  subsets: ["latin"], 
+  weight: ["200", "300", "400", "500", "600", "700", "800"] 
+});
 
 export const metadata = {
   title: "Cards",
@@ -13,13 +16,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${instrumentSans.className} relative h-screen w-screen`}>
-          
+      <body className={`${manrope.className} relative h-screen w-screen`}>
         <Navbar />
         {children}
         <Toaster />
-       
-       
       </body>
     </html>
   );

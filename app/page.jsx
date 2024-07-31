@@ -8,8 +8,9 @@ export default function Home() {
   return (
     <>
     <Hero />
+    <div className="gradient-overlay"></div>
     <FeaturedTemplates />
-
+    
     <Footer />
     </>
   );

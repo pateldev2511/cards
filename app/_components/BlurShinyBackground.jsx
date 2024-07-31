@@ -50,7 +50,7 @@ const BlurShinyBackground = React.memo(({ className }) => {
               ease: "easeInOut",
               repeat: Infinity,
               repeatType: "mirror",
-              delay: index * 0.2, // Stagger effect
+              delay: 0.5, // Stagger effect
             }}
           />
         ))}

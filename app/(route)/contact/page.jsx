@@ -4,6 +4,34 @@ import AnimatedGridPattern from "@/components/magicui/animated-grid-pattern";
 import { Mail, Facebook, Linkedin, Instagram } from 'lucide-react';
 import Link from 'next/link';
 
+export const metadata = {
+    metadataBase: new URL('https://cards.devpatel.xyz'), // Set your base URL here
+    title: 'Contact Us | Cards',
+    description: "Get in touch with the team behind &apos;Cards&apos;. Whether you have questions, feedback, or need support, we&apos;re here to help you with our collection of customizable web templates and UI components.",
+    keywords: 'Contact, Web Templates, UI Components, Frontend Development, Support, Feedback, Cards, Web Design, User Interface, Web Development',
+    openGraph: {
+      type: 'website',
+      locale: 'en_US',
+      url: 'https://cards.devpatel.xyz/contact',
+      title: 'Contact Us | Cards',
+      description: "Reach out to the &apos;Cards&apos; team for support, inquiries, or feedback. We&apos;re dedicated to providing top-notch web templates and UI components to enhance your web projects.",
+      images: [
+        {
+          url: '/logo.jpeg', // URL is resolved relative to metadataBase
+          width: 800,
+          height: 600,
+          alt: 'Cards Logo',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Contact Us | Cards',
+      description: "Reach out to the &apos;Cards&apos; team for support, inquiries, or feedback. We&apos;re dedicated to providing top-notch web templates and UI components to enhance your web projects.",
+      image: '/logo.jpeg',  // URL is resolved relative to metadataBase
+    },
+  };
+
 const Contact = () => {
   return (
     <div className="relative flex h-screen w-full items-center justify-center overflow-hidden bg-black p-4 md:p-8 lg:p-16">

@@ -1,6 +1,33 @@
-"use client";
 import React from "react";
 import { TracingBeam } from "./_components/TracingBeam";
+
+export const metadata = {
+  metadataBase: new URL('https://cards.devpatel.xyz'), // Set your base URL here
+  title: 'About Us | Cards',
+  description: "Explore &apos;Cards&apos;, where we provide high-quality, customizable web templates for your development needs. Our collection includes a variety of designs ranging from landing pages to detailed UI components, all optimized for performance and aesthetic appeal.",
+  keywords: 'About, Web Templates, UI Components, Frontend Development, React Components, HTML/CSS, JavaScript, Customizable Templates, Cards, Web Design, User Interface, Web Development',
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://cards.devpatel.xyz/about',
+    title: 'About Us | Cards',
+    description: "Discover &apos;Cards&apos;, featuring a collection of high-quality web templates and UI components designed for developers and designers. Perfect for enhancing your web projects with professional, customizable designs.",
+    images: [
+      {
+        url: '/logo.jpeg', // URL is resolved relative to metadataBase
+        width: 800,
+        height: 600,
+        alt: 'Cards Logo',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About Us | Cards',
+    description: "Discover &apos;Cards&apos;, featuring a collection of high-quality web templates and UI components designed for developers and designers. Perfect for enhancing your web projects with professional, customizable designs.",
+    image: '/logo.jpeg',  // URL is resolved relative to metadataBase
+  },
+};
 
 const About = () => {
   return (

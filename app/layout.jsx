@@ -9,8 +9,31 @@ const manrope = Manrope({
 });
 
 export const metadata = {
-  title: "Cards",
-  description: "Get best cards effected templates in for on React components and also plain HTML and CSS.",
+  metadataBase: new URL('https://cards.devpatel.xyz'), // Set your base URL here
+  title: 'Home | Cards',
+  description: "Welcome to the &apos;Cards&apos;, your go-to resource for high-quality, customizable web templates and UI components. Explore our diverse collection of designs to enhance your web development projects with professional, responsive layouts.",
+  keywords: 'Home, Web Templates, UI Components, Frontend Development, React Components, HTML/CSS, JavaScript, Customizable Templates, Cards Project, Web Design, User Interface, Web Development',
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://cards.devpatel.xyz/',
+    title: 'Home | Cards',
+    description: "Discover the &apos;Cards&apos;, where you'll find a variety of customizable web templates and UI components designed for developers and designers. Perfect for creating professional, responsive websites.",
+    images: [
+      {
+        url: '/logo.jpeg', // URL is resolved relative to metadataBase
+        width: 800,
+        height: 600,
+        alt: 'Cards Logo',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Home | Cards ',
+    description: "Discover the &apos;Cards&apos;, where you&apos;ll find a variety of customizable web templates and UI components designed for developers and designers. Perfect for creating professional, responsive websites.",
+    image: '/logo.jpeg',  // URL is resolved relative to metadataBase
+  },
 };
 
 export default function RootLayout({ children }) {

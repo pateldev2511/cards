@@ -12,9 +12,9 @@ const Contact = () => {
           <h1 className="w-full h-fit text-center text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight bg-gradient-to-r from-slate-100 to-slate-400 bg-clip-text text-transparent">Coming Soon...</h1>
           <div className="grid sm:grid-cols-2 items-start gap-8 md:gap-14 p-4 md:p-8 mx-auto max-w-full">
             <div>
-              <h1 className="text-gray-100 text-2xl md:text-3xl font-extrabold">Let's Talk</h1>
+              <h1 className="text-gray-100 text-2xl md:text-3xl font-extrabold">Let&apos;s Talk</h1>
               <p className="text-xs md:text-sm text-gray-200 mt-4">
-                Have some big idea or brand to develop and need help? Then reach out we'd love to hear about your project and provide help.
+                Have some big idea or brand to develop and need help? Then reach out we&apos;d love to hear about your project and provide help.
               </p>
 
               <div className="mt-8 md:mt-12">

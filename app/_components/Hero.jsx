@@ -7,7 +7,7 @@ import TextGenerateEffect from './TextGenerateEffect';
 
 const Hero = () => {
   const words = "Explore and Integrate Stunning Web Templates Effortlessly";
-  const descriptionWords = "Welcome to our comprehensive library of beautifully designed web templates. Whether you’re working with HTML/CSS/JavaScript or React, we’ve got you covered. Browse through our collection, view live demos, and seamlessly copy code snippets to elevate your web projects. Best of all, everything here is free and ready for you to use, making your development process smoother and more efficient.";
+  const descriptionWords = "Welcome to our comprehensive library of beautifully designed web templates. Whether you&apos;re working with HTML/CSS/JavaScript or React, we&apos;ve got you covered. Browse through our collection, view live demos, and seamlessly copy code snippets to elevate your web projects. Best of all, everything here is free and ready for you to use, making your development process smoother and more efficient.";
 
   return (
     <section className="bg-black componentA">

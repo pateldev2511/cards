@@ -44,17 +44,17 @@ const BlurShinyBackground = React.memo(({ className }) => {
             stroke={`url(#linearGradient-${index})`}
             strokeOpacity="0.4"
             strokeWidth="0.5"
-initial={{ opacity: 0 }}
-animate={{ opacity: 1 }}
-transition={{
-duration: 10,
-ease: "easeInOut",
-repeat: Infinity,
-repeatType: "mirror",
-delay: 0, // Removed stagger effect for instant start
-}}
-/>
-))}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{
+            duration: 10,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatType: "mirror",
+            delay: 0, // Removed stagger effect for instant start
+            }}
+            />
+            ))}
     <defs>
       {/* Define linear gradients for each path */}
       {Array.from({ length: 50 }).map((_, index) => (

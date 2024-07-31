@@ -92,6 +92,15 @@ module.exports = {
     },
   },
   plugins: [
+    [
+      "prismjs",
+      {
+        "languages": ["javascript", "css", "html"],
+        "plugins": ["line-numbers", "show-language"],
+        "theme": "okaidia",
+        "css": true
+      }
+    ],
     require("tailwindcss-animate"),
     addVariablesForColors,
     function ({ matchUtilities, theme }) {

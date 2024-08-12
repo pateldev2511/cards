@@ -39,7 +39,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${manrope.className} relative h-screen w-screen`}>
+      <body className={`${manrope.className} relative h-screen w-screen bg-black`}>
         <Navbar />
         {children}
         <Toaster />

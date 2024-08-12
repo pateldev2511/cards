@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@craftjs/core": "^0.2.10",
+    "@craftjs/utils": "^0.2.4",
     "@radix-ui/react-hover-card": "^1.1.1",
     "@radix-ui/react-toast": "^1.2.1",
     "@react-three/fiber": "^8.16.8",

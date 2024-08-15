@@ -10,7 +10,7 @@ export default function D3Footer() {
             <div className="text-center md:text-left">
               <h2 className="text-xl font-semibold mb-4">Women PWR</h2>
               <p className="text-gray-600 mb-4">
-                I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.
+                I&apos;m a paragraph. Click here to add your own text and edit me. Let your users get to know you.
               </p>
               <p className="text-gray-600">
                 <strong>Email:</strong> info@mysite.com

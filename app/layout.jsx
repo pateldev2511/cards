@@ -1,6 +1,5 @@
 import { Manrope } from "next/font/google";
 import "./globals.css";
-import Navbar from "./_components/Navbar";
 import { Toaster } from "@/components/ui/toaster";
 
 const manrope = Manrope({ 
@@ -40,7 +39,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${manrope.className} relative h-screen w-screen bg-black`}>
-        <Navbar />
         {children}
         <Toaster />
       </body>

@@ -3,6 +3,7 @@ import { cn } from "@/lib/utils";
 import AnimatedGridPattern from "@/components/magicui/animated-grid-pattern";
 import { Mail, Facebook, Linkedin, Instagram } from 'lucide-react';
 import Link from 'next/link';
+import Navbar from "@/app/_components/Navbar";
 
 export const metadata = {
     metadataBase: new URL('https://cards.devpatel.xyz'), // Set your base URL here
@@ -34,6 +35,9 @@ export const metadata = {
 
 const Contact = () => {
   return (
+    <>
+    <Navbar/>
+   
     <div className="relative flex h-screen w-full items-center justify-center overflow-hidden bg-black p-4 md:p-8 lg:p-16">
       <div className="w-full max-w-7xl mx-auto mt-2">
         <div className="bg-zinc-800 bg-opacity-90 shadow-lg rounded-md p-4 md:p-8 lg:p-12 mt-4">
@@ -103,6 +107,7 @@ const Contact = () => {
         )}
       />
     </div>
+    </>
   );
 };
 

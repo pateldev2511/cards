@@ -1,5 +1,6 @@
 import React from "react";
 import { TracingBeam } from "./_components/TracingBeam";
+import Navbar from "@/app/_components/Navbar";
 
 export const metadata = {
   metadataBase: new URL('https://cards.devpatel.xyz'), // Set your base URL here
@@ -31,6 +32,9 @@ export const metadata = {
 
 const About = () => {
   return (
+    <>
+    <Navbar/>
+   
     <div className="bg-black text-white min-h-screen py-8 px-2">
       <section className="container mx-auto">
         <TracingBeam>
@@ -95,6 +99,7 @@ const About = () => {
         </TracingBeam>
       </section>
     </div>
+    </>
   );
 };
 

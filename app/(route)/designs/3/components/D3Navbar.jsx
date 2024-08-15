@@ -1,0 +1,126 @@
+"use client";
+
+import { useState } from "react";
+import Link from "next/link";
+
+export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const handleCloseMenu = () => {
+    setIsOpen(false);
+  };
+
+  return (
+    <nav className="bg-black text-white flex justify-between items-center">
+      <div className="flex items-center gap-4 p-4">
+        <Link href="/designs/3" className="text-xl font-bold">
+          WOMEN PWR
+        </Link>
+        <ul className="hidden md:flex gap-4 justify-center items-center p-4">
+          <li>
+            <Link href="/designs/3#latest-news">Latest news</Link>
+          </li>
+          <li>
+            <Link href="/designs/3#join-us">Join us</Link>
+          </li>
+          <li>
+            <Link href="/designs/3#upcoming-events">Upcoming events</Link>
+          </li>
+        </ul>
+      </div>
+      <div className="flex space-x-4">
+        <Link href="/designs/3" className="hidden md:block py-8 px-4 mx-0">
+          Log In
+        </Link>
+        <Link
+          href="/designs/3"
+          className="bg-pink-500 text-white py-8 px-4 mx-0 hidden md:block"
+        >
+          Donate
+        </Link>
+        <button
+          onClick={toggleMenu}
+          className="md:hidden h-8 w-8 focus:outline-none"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="1em"
+            height="1em"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M4 12h16M4 6h16M4 18h16"
+            />
+          </svg>
+        </button>
+      </div>
+      {/* Mobile Menu */}
+      <div
+        className={`z-50 fixed top-0 right-0 w-64 h-full bg-black/80 backdrop-blur-md text-white transform ${
+          isOpen ? "translate-x-0" : "translate-x-full"
+        } transition-transform duration-300 ease-in-out md:hidden`}
+      >
+        <button
+          onClick={toggleMenu}
+          className="h-8 w-8 p-4 focus:outline-none"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="1em"
+            height="1em"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z"
+            />
+          </svg>
+        </button>
+        <ul className="flex flex-col space-y-4 mt-10 ml-4">
+          <li>
+            <Link href="/designs/3#latest-news" onClick={handleCloseMenu}>
+              Latest news
+            </Link>
+          </li>
+          <li>
+            <Link href="/designs/3#join-us" onClick={handleCloseMenu}>
+              Join us
+            </Link>
+          </li>
+          <li>
+            <Link href="/designs/3#upcoming-events" onClick={handleCloseMenu}>
+              Upcoming events
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/designs/3"
+              className="bg-pink-500 text-white py-2 px-4 rounded-none mt-4"
+              onClick={handleCloseMenu}
+            >
+              Donate
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/designs/3"
+              className="py-2 px-4 rounded-none mt-2"
+              onClick={handleCloseMenu}
+            >
+              Log In
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
+}

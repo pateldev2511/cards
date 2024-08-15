@@ -1,8 +1,11 @@
+import Navbar from '@/app/_components/Navbar'
 import Link from 'next/link'
 import React from 'react'
 
 const notFound = () => {
   return (
+    <>
+    <Navbar />
     
     <div className="grid h-screen place-content-center bg-black px-4">
   <div className="text-center">
@@ -20,7 +23,7 @@ const notFound = () => {
     </Link>
   </div>
 </div>
-  
+</>
   )
 }
 

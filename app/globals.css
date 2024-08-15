@@ -68,6 +68,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .componentA {
   background-color: #000000;
   position: relative;

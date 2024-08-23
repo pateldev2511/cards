@@ -5,6 +5,8 @@ import ServiceSection from './ServiceSection';
 import MainServices from './MainServices';
 import Footer from './Footer';
 import ProductCard from './ProductCard';
+import AboutUs from './AboutUs';
+import ContactUs from './ContactUs';
 
 const Main = () => {
 
@@ -62,7 +64,8 @@ const Main = () => {
               </div>
             </div>
             </div>
-            {/* Additional Sections can be added here */}
+            <AboutUs />
+            <ContactUs />
           </main>
           <Footer />
         </div>

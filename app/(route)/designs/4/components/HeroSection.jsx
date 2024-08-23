@@ -20,7 +20,7 @@ const HeroSection = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-white">
               Affordable Veterinary Care for Rescue Animals
             </h2>
-            <p className="text-gray-100/50 text-lg">
+            <p className="text-gray-100/80 text-lg">
               Our non-profit organization is dedicated to providing high-quality, affordable veterinary services to
               rescue groups and animal welfare organizations.
             </p>

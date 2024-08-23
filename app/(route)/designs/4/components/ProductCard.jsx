@@ -3,13 +3,13 @@ import React from 'react';
 
 const ProductCard = ({ imageSrc, altText, title, price }) => {
   return (
-    <div className="group relative block bg-black rounded-lg overflow-hidden min-w-[300px] max-w-[300px] min-h-[400px] mx-2">
+    <div className="group relative block bg-black rounded-md overflow-hidden min-w-[300px] max-w-[300px] min-h-[400px] mx-2">
       <Image
         alt={altText}
         src={imageSrc}
         layout="fill"
         objectFit="cover"
-        className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-30"
+        className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-40"
       />
 
       <div className="relative p-4 sm:p-5 h-full flex flex-col justify-between">

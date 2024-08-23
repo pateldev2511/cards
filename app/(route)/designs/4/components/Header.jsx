@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { MenuIcon, X as CloseIcon, PawPrint as PawPrintIcon, HomeIcon } from 'lucide-react';
+import { MenuIcon, X as CloseIcon, PawPrint as PawPrintIcon } from 'lucide-react';
 
 function Header() {
   const Menu = [

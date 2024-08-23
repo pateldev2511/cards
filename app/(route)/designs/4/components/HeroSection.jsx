@@ -4,7 +4,7 @@ import React from 'react';
 const HeroSection = () => {
   return (
     <section
-      className="relative py-12 md:py-16 bg-gray-900"
+      className="relative py-12 md:py-16 bg-gray-900 h-[60vh] flex items-center"
       style={{
         backgroundImage: "url('/design-images/bg/little-girl.png')",
         backgroundSize: 'cover',
@@ -16,7 +16,7 @@ const HeroSection = () => {
 
       <div className="container relative z-10 mx-auto px-4 md:px-6">
         <div className="grid md:grid-cols-2 gap-8 items-center p-8 rounded-lg">
-          <div className="grid gap-6">
+          <div className="grid gap-6 text-left">
             <h2 className="text-3xl md:text-4xl font-bold text-white">
               Affordable Veterinary Care for Rescue Animals
             </h2>

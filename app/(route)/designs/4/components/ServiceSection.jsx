@@ -4,14 +4,14 @@ import Link from 'next/link'
 
 const ServiceSection = () => {
   return (
-    <section className="py-12 md:py-16">
+    <section className="py-12 md:py-16  flex items-center">
     <div className="container mx-auto px-4 md:px-6">
       <div className="grid md:grid-cols-2 gap-8 items-center">
         <div>
           <Image
             src="/design-images/girl_and_dog_hands.png"
             alt="Handmade dog collar charms"
-            className="rounded-lg object-cover w-full"
+            className="rounded-sm object-cover w-full"
             width="600"
             height="400"
             style={{ aspectRatio: "600/400", objectFit: "cover" }}

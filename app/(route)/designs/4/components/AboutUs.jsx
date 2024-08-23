@@ -23,7 +23,7 @@ const AboutUs = () => {
                 <h3 className="text-xl font-bold mb-2">Our History</h3>
                 <p className="text-muted-foreground">
                   PetBuddy was founded in 2015 by a group of veterinarians and animal welfare advocates who saw the need
-                  for more support and resources for rescue groups. Since then, we've grown to operate a network of
+                  for more support and resources for rescue groups. Since then, we&apos;ve grown to operate a network of
                   low-cost clinics and provide a wide range of services to the community.
                 </p>
               </div>

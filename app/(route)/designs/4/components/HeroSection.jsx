@@ -14,7 +14,7 @@ const HeroSection = () => {
       {/* Tint overlay */}
       <div className="absolute inset-0 bg-black/50"></div>
 
-      <div className="container relative z-10 mx-auto px-4 md:px-6">
+      <div className="container relative mx-auto px-4 md:px-6">
         <div className="grid md:grid-cols-2 gap-8 items-center p-8 rounded-lg">
           <div className="grid gap-6 text-left">
             <h2 className="text-3xl md:text-4xl font-bold text-white">

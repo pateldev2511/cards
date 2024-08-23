@@ -24,7 +24,7 @@ function Header() {
   };
 
   return (
-    <header className="bg-blue-600 text-primary-foreground py-8 px-6 z-50 relative">
+    <header className="bg-blue-600 text-primary-foreground py-8 px-6 z-10 relative">
         
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center gap-4">
@@ -47,8 +47,8 @@ function Header() {
             {isMenuOpen ? <CloseIcon className="h-6 w-6 text-primary-foreground" /> : <MenuIcon className="h-6 w-6 text-primary-foreground" />}
           </button>
         </div>
-        <div className={`fixed inset-0 bg-slate-800 p-8 md:hidden flex flex-col justify-between ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out z-50`}>
-          <button className='absolute top-4 right-4 z-50' onClick={handleMenuClick} aria-label="Close menu">
+        <div className={`fixed inset-0 bg-blue-600 p-8 md:hidden flex flex-col justify-between ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out z-20`}>
+          <button className='absolute top-4 right-4 z-20' onClick={handleMenuClick} aria-label="Close menu">
             <CloseIcon className="h-6 w-6 text-primary-foreground" />
           </button>
           <ul className='flex flex-col gap-4 mt-12'>

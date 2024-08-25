@@ -9,7 +9,7 @@ const ServiceSection = () => {
       <div className="grid md:grid-cols-2 gap-8 items-center">
         <div>
           <Image
-            src="/design-images/girl_and_dog_hands.png"
+            src="/design-images/girl_and_dog_hands.webp"
             alt="Handmade dog collar charms"
             className="rounded-sm object-cover w-full"
             width="600"

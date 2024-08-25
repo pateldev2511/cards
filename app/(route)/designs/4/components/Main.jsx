@@ -13,21 +13,21 @@ const Main = () => {
     const products = [
         {
           id: 1,
-          imageSrc: "/design-images/keystones.png",
+          imageSrc: "/design-images/collar-1.webp",
           altText: "Keychain 1",
           title: "Product 1",
           price: 200,
         },
         {
           id: 2,
-          imageSrc: "/design-images/keystones-2.png",
+          imageSrc: "/design-images/collar-2.webp",
           altText: "Keychain 2",
           title: "Product 2",
           price: 250,
         },
         {
           id: 3,
-          imageSrc: "/design-images/keystones-3.png",
+          imageSrc: "/design-images/collar-1.webp",
           altText: "Keychain 3",
           title: "Product 3",
           price: 300,

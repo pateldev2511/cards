@@ -51,7 +51,7 @@ function Header() {
           <button className='absolute top-4 right-4 z-20' onClick={handleMenuClick} aria-label="Close menu">
             <CloseIcon className="h-6 w-6 text-blue-600 hover:text-blue-700" />
           </button>
-          <ul className='flex flex-col gap-4 mt-12'>
+          <ul className='flex flex-col gap-4 mt-12 font-semibold'>
             {Menu.map((menuItem) => (
               <Link 
                 href={menuItem.path} 

@@ -6,7 +6,7 @@ const HeroSection = () => {
     <section
       className="relative py-12 md:py-16 bg-gray-900 h-[60vh] flex items-center"
       style={{
-        backgroundImage: "url('/design-images/bg/little-girl.png')",
+        backgroundImage: "url('/design-images/bg/girl_dog_sunset.webp')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}

@@ -32,77 +32,75 @@ const BlurShinyBackground = React.memo(({ className }) => {
         {Array.from({ length: 50 }).map((_, index) => (
           <motion.path
             key={`path-${index}`}
-            d={`M${-380 + index * 7} ${-189 - index * 8}C${
-              -380 + index * 7
-            } ${-189 - index * 8} ${-312 + index * 7} ${
-              216 - index * 8
-            } ${152 + index * 7} ${343 - index * 8}C${616 + index * 7} ${
-              470 - index * 8
-            } ${684 + index * 7} ${875 - index * 8} ${684 + index * 7} ${
+            d={`M${-380 + index * 7} ${-189 - index * 8}C${-380 + index * 7} ${
+              -189 - index * 8
+            } ${-312 + index * 7} ${216 - index * 8} ${152 + index * 7} ${
+              343 - index * 8
+            }C${616 + index * 7} ${470 - index * 8} ${684 + index * 7} ${
               875 - index * 8
-            }`}
+            } ${684 + index * 7} ${875 - index * 8}`}
             stroke={`url(#linearGradient-${index})`}
             strokeOpacity="0.4"
             strokeWidth="0.5"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{
-            duration: 10,
-            ease: "easeInOut",
-            repeat: Infinity,
-            repeatType: "mirror",
-            delay: 0, // Removed stagger effect for instant start
+              duration: 10,
+              ease: "easeInOut",
+              repeat: Infinity,
+              repeatType: "mirror",
+              delay: 0, // Removed stagger effect for instant start
             }}
-            />
-            ))}
-    <defs>
-      {/* Define linear gradients for each path */}
-      {Array.from({ length: 50 }).map((_, index) => (
-        <motion.linearGradient
-          id={`linearGradient-${index}`}
-          key={`gradient-${index}`}
-          initial={{
-            x1: "0%",
-            x2: "0%",
-            y1: "0%",
-            y2: "0%",
-          }}
-          animate={{
-            x1: ["0%", "100%"],
-            x2: ["0%", "95%"],
-            y1: ["0%", "100%"],
-            y2: ["0%", `${93 + Math.random() * 8}%`],
-          }}
-          transition={{
-            duration: Math.random() * 10 + 10,
-            ease: "easeInOut",
-            repeat: Infinity,
-            delay: 0,
-          }}
-        >
-          <stop stopColor="#18CCFC" stopOpacity="0" />
-          <stop stopColor="#18CCFC" />
-          <stop offset="32.5%" stopColor="#6344F5" />
-          <stop offset="100%" stopColor="#AE48FF" stopOpacity="0" />
-        </motion.linearGradient>
-      ))}
+          />
+        ))}
+        <defs>
+          {/* Define linear gradients for each path */}
+          {Array.from({ length: 50 }).map((_, index) => (
+            <motion.linearGradient
+              id={`linearGradient-${index}`}
+              key={`gradient-${index}`}
+              initial={{
+                x1: "0%",
+                x2: "0%",
+                y1: "0%",
+                y2: "0%",
+              }}
+              animate={{
+                x1: ["0%", "100%"],
+                x2: ["0%", "95%"],
+                y1: ["0%", "100%"],
+                y2: ["0%", `${93 + Math.random() * 8}%`],
+              }}
+              transition={{
+                duration: Math.random() * 10 + 10,
+                ease: "easeInOut",
+                repeat: Infinity,
+                delay: 0,
+              }}
+            >
+              <stop stopColor="#18CCFC" stopOpacity="0" />
+              <stop stopColor="#18CCFC" />
+              <stop offset="32.5%" stopColor="#6344F5" />
+              <stop offset="100%" stopColor="#AE48FF" stopOpacity="0" />
+            </motion.linearGradient>
+          ))}
 
-      <radialGradient
-        id="paint0_radial_242_278"
-        cx="0"
-        cy="0"
-        r="1"
-        gradientUnits="userSpaceOnUse"
-        gradientTransform="translate(720 450) rotate(90) scale(720 1200)" // Adjusted for better coverage
-      >
-        <stop offset="0.0666667" stopColor="var(--neutral-300)" />
-        <stop offset="0.243243" stopColor="var(--neutral-300)" />
-        <stop offset="0.43594" stopColor="white" stopOpacity="0" />
-      </radialGradient>
-    </defs>
-  </svg>
-</div>
-);
+          <radialGradient
+            id="paint0_radial_242_278"
+            cx="0"
+            cy="0"
+            r="1"
+            gradientUnits="userSpaceOnUse"
+            gradientTransform="translate(720 450) rotate(90) scale(720 1200)" // Adjusted for better coverage
+          >
+            <stop offset="0.0666667" stopColor="var(--neutral-300)" />
+            <stop offset="0.243243" stopColor="var(--neutral-300)" />
+            <stop offset="0.43594" stopColor="white" stopOpacity="0" />
+          </radialGradient>
+        </defs>
+      </svg>
+    </div>
+  );
 });
 
 BlurShinyBackground.displayName = "BlurShinyBackground";

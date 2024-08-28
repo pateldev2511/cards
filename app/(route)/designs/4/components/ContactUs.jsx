@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const ContactUs = () => {
   return (
@@ -7,12 +7,18 @@ const ContactUs = () => {
         <div>
           <h2 className="text-3xl font-bold mb-4 text-gray-800">Contact Us</h2>
           <p className="text-lg text-muted-foreground">
-            Get in touch with us to learn more about our services or how you can get involved.
+            Get in touch with us to learn more about our services or how you can
+            get involved.
           </p>
         </div>
         <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
-            <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
+            <label
+              htmlFor="name"
+              className="block text-sm font-medium text-gray-700"
+            >
+              Name
+            </label>
             <input
               id="name"
               type="text"
@@ -21,7 +27,12 @@ const ContactUs = () => {
             />
           </div>
           <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
+            <label
+              htmlFor="email"
+              className="block text-sm font-medium text-gray-700"
+            >
+              Email
+            </label>
             <input
               id="email"
               type="email"
@@ -30,7 +41,12 @@ const ContactUs = () => {
             />
           </div>
           <div className="md:col-span-2">
-            <label htmlFor="message" className="block text-sm font-medium text-gray-700">Message</label>
+            <label
+              htmlFor="message"
+              className="block text-sm font-medium text-gray-700"
+            >
+              Message
+            </label>
             <textarea
               id="message"
               placeholder="Enter your message"
@@ -50,6 +66,6 @@ const ContactUs = () => {
       </div>
     </section>
   );
-}
+};
 
 export default ContactUs;

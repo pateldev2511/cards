@@ -1,5 +1,5 @@
-import React from 'react';
-import { useNode } from '@craftjs/core';
+import React from "react";
+import { useNode } from "@craftjs/core";
 
 export const Container = ({ children, background, padding }) => {
   const {
@@ -8,7 +8,7 @@ export const Container = ({ children, background, padding }) => {
 
   return (
     <div
-      ref={ref => connect(drag(ref))}
+      ref={(ref) => connect(drag(ref))}
       style={{ background, padding: `${padding}px` }}
     >
       {children}

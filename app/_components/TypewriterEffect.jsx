@@ -4,11 +4,7 @@ import { cn } from "@/lib/utils";
 import { motion, stagger, useAnimate, useInView } from "framer-motion";
 import { useEffect } from "react";
 
-export const TypewriterEffect = ({
-  words,
-  className,
-  cursorClassName,
-}) => {
+export const TypewriterEffect = ({ words, className, cursorClassName }) => {
   // Split text inside of words into array of characters
   const wordsArray = words.map((word) => {
     return {
@@ -19,7 +15,7 @@ export const TypewriterEffect = ({
 
   const [scope, animate] = useAnimate();
   const isInView = useInView(scope);
-  
+
   useEffect(() => {
     if (isInView) {
       animate(
@@ -47,10 +43,7 @@ export const TypewriterEffect = ({
               <motion.span
                 initial={{ opacity: 0 }}
                 key={`char-${index}`}
-                className={cn(
-                  ` text-white opacity-0 hidden`,
-                  word.className
-                )}
+                className={cn(` text-white opacity-0 hidden`, word.className)}
               >
                 {char}
               </motion.span>
@@ -61,7 +54,7 @@ export const TypewriterEffect = ({
       </motion.div>
     );
   };
-  
+
   return (
     <div
       className={cn(

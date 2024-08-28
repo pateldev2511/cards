@@ -18,50 +18,74 @@ const templates = [
   {
     id: 1,
     name: "Template 1",
-    description: "A smooth and clean animation effects and unique scrolling animation.",
+    description:
+      "A smooth and clean animation effects and unique scrolling animation.",
     path: "/designs/1",
     icon: <GalleryHorizontalEnd className="w-12 h-12 text-gray-50" />,
-    colors: [[236, 72, 153], [232, 121, 249]],
+    colors: [
+      [236, 72, 153],
+      [232, 121, 249],
+    ],
   },
   {
     id: 2,
     name: "Template 2",
-    description: "A smooth and clean animation effects and unique scrolling animation.",
+    description:
+      "A smooth and clean animation effects and unique scrolling animation.",
     path: "/designs/2",
     icon: <Dock className="w-12 h-12 text-gray-50" />,
-    colors: [[59, 130, 246], [37, 99, 235]],
+    colors: [
+      [59, 130, 246],
+      [37, 99, 235],
+    ],
   },
   {
     id: 3,
     name: "Template 3",
-    description: "A smooth and clean animation effects and unique scrolling animation.",
+    description:
+      "A smooth and clean animation effects and unique scrolling animation.",
     path: "/designs/3",
     icon: <GalleryHorizontal className="w-12 h-12 text-gray-50" />,
-    colors: [[34, 197, 94], [22, 163, 74]],
+    colors: [
+      [34, 197, 94],
+      [22, 163, 74],
+    ],
   },
   {
     id: 4,
     name: "Template 4",
-    description: "A smooth and clean animation effects and unique scrolling animation.",
+    description:
+      "A smooth and clean animation effects and unique scrolling animation.",
     path: "/designs/4",
     icon: <GalleryVertical className="w-12 h-12 text-gray-50" />,
-    colors: [[234, 179, 8], [202, 138, 4]],
+    colors: [
+      [234, 179, 8],
+      [202, 138, 4],
+    ],
   },
   {
     id: 5,
     name: "Template 5",
-    description: "A smooth and clean animation effects and unique scrolling animation.",
+    description:
+      "A smooth and clean animation effects and unique scrolling animation.",
     path: "/designs/5",
     icon: <GalleryVerticalEnd className="w-12 h-12 text-gray-50" />,
-    colors: [[244, 114, 182], [219, 39, 119]],
+    colors: [
+      [244, 114, 182],
+      [219, 39, 119],
+    ],
   },
   {
     id: 6,
     name: "Template 6",
-    description: "A smooth and clean animation effects and unique scrolling animation.",
+    description:
+      "A smooth and clean animation effects and unique scrolling animation.",
     path: "/designs/6",
     icon: <AppWindow className="w-12 h-12 text-gray-50" />,
-    colors: [[139, 92, 246], [124, 58, 237]],
+    colors: [
+      [139, 92, 246],
+      [124, 58, 237],
+    ],
   },
 ];
 
@@ -94,13 +118,7 @@ const FeaturedTemplates = () => {
   );
 };
 
-const Card = ({
-  title,
-  description,
-  icon,
-  colors,
-  path,
-}) => {
+const Card = ({ title, description, icon, colors, path }) => {
   const [hovered, setHovered] = React.useState(false);
   return (
     <Link href={path} passHref>
@@ -129,9 +147,7 @@ const Card = ({
         </AnimatePresence>
 
         <div className="relative z-20 text-center p-4">
-          <div className="mx-auto flex items-center justify-center">
-            {icon}
-          </div>
+          <div className="mx-auto flex items-center justify-center">{icon}</div>
           <h2 className="dark:text-black text-xl group-hover/canvas-card:opacity-100 relative z-10 text-white mt-4 font-bold transition duration-200">
             {title}
           </h2>

@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
 const ProductCard = ({ imageSrc, altText, title, price }) => {
   return (
@@ -14,8 +14,12 @@ const ProductCard = ({ imageSrc, altText, title, price }) => {
 
       <div className="relative p-4 sm:p-5 h-full flex flex-col justify-between">
         <div>
-          <p className="text-sm font-medium uppercase tracking-widest text-cyan-500">Price: ${price}</p>
-          <p className="text-xl font-bold text-slate-300 sm:text-2xl">{title}</p>
+          <p className="text-sm font-medium uppercase tracking-widest text-cyan-500">
+            Price: ${price}
+          </p>
+          <p className="text-xl font-bold text-slate-300 sm:text-2xl">
+            {title}
+          </p>
         </div>
 
         <div className="flex justify-start items-end">

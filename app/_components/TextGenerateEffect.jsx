@@ -2,7 +2,13 @@ import { useEffect } from "react";
 import { motion, stagger, useAnimate } from "framer-motion";
 import { cn } from "@/lib/utils";
 
-const TextGenerateEffect = ({ text, className, filter = true, duration = 1, staggerDelay = 0.05 }) => {
+const TextGenerateEffect = ({
+  text,
+  className,
+  filter = true,
+  duration = 1,
+  staggerDelay = 0.05,
+}) => {
   const [scope, animate] = useAnimate();
   const wordsArray = text.split(" ");
 

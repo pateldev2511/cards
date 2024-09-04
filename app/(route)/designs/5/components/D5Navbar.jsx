@@ -22,24 +22,37 @@ export default function D5Navbar() {
         </Link>
         <ul className="hidden md:flex gap-4 justify-center items-center p-4">
           <li>
-            <Link href="/designs/5#about-us" className="hover:text-gray-300">About Us</Link>
+            <Link href="/designs/5#about-us" className="hover:text-gray-300">
+              About Us
+            </Link>
           </li>
           <li>
-            <Link href="/designs/5#programs" className="hover:text-gray-300">Programs</Link>
+            <Link href="/designs/5#programs" className="hover:text-gray-300">
+              Programs
+            </Link>
           </li>
           <li>
-            <Link href="/designs/5#latest-news" className="hover:text-gray-300">Latest News</Link>
+            <Link href="/designs/5#latest-news" className="hover:text-gray-300">
+              Latest News
+            </Link>
           </li>
           <li>
-            <Link href="/designs/5#events" className="hover:text-gray-300">Events</Link>
+            <Link href="/designs/5#events" className="hover:text-gray-300">
+              Events
+            </Link>
           </li>
           <li>
-            <Link href="/designs/5#Join-Us" className="hover:text-gray-300">Join Us</Link>
+            <Link href="/designs/5#join-us" className="hover:text-gray-300">
+              Join Us
+            </Link>
           </li>
         </ul>
       </div>
       <div className="flex space-x-4">
-        <Link href="/designs/5" className="hidden md:block py-2 px-4 mx-0 hover:text-gray-300">
+        <Link
+          href="/designs/5"
+          className="hidden md:block py-2 px-4 mx-0 hover:text-gray-300"
+        >
           Log In
         </Link>
         <Link
@@ -75,10 +88,7 @@ export default function D5Navbar() {
           isOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 ease-in-out md:hidden`}
       >
-        <button
-          onClick={toggleMenu}
-          className="h-8 w-8 p-4 focus:outline-none"
-        >
+        <button onClick={toggleMenu} className="h-8 w-8 p-4 focus:outline-none">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="1em"
@@ -93,28 +103,53 @@ export default function D5Navbar() {
         </button>
         <ul className="flex flex-col space-y-4 mt-10 ml-4">
           <li>
-            <Link href="/designs/5#about-us" onClick={handleCloseMenu} className="hover:text-gray-300">
+            <Link
+              href="/designs/5#about-us"
+              onClick={handleCloseMenu}
+              className="hover:text-gray-300"
+            >
               About Us
             </Link>
           </li>
           <li>
-            <Link href="/designs/5#programs" onClick={handleCloseMenu} className="hover:text-gray-300">
+            <Link
+              href="/designs/5#programs"
+              onClick={handleCloseMenu}
+              className="hover:text-gray-300"
+            >
               Programs
             </Link>
           </li>
           <li>
-            <Link href="/designs/5#latest-news" onClick={handleCloseMenu} className="hover:text-gray-300">
+            <Link
+              href="/designs/5#latest-news"
+              onClick={handleCloseMenu}
+              className="hover:text-gray-300"
+            >
               Latest News
             </Link>
           </li>
           <li>
-            <Link href="/designs/5#events" onClick={handleCloseMenu} className="hover:text-gray-300">
+            <Link
+              href="/designs/5#events"
+              onClick={handleCloseMenu}
+              className="hover:text-gray-300"
+            >
               Events
             </Link>
           </li>
           <li>
-            <Link href="/designs/5#contact-us" onClick={handleCloseMenu} className="hover:text-gray-300">
+            <Link
+              href="/designs/5#contact-us"
+              onClick={handleCloseMenu}
+              className="hover:text-gray-300"
+            >
               Contact Us
+            </Link>
+          </li>
+          <li>
+            <Link href="/designs/5#join-us" className="hover:text-gray-300">
+              Join Us
             </Link>
           </li>
           <li>

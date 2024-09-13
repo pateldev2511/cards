@@ -27,13 +27,8 @@ export default function D5Navbar() {
             </Link>
           </li>
           <li>
-<<<<<<< HEAD:app/(route)/designs/5/compenets/D5Navbar.jsx
             <Link href="/designs/5#programs" className="hover:text-gray-300"> Wellness Programs</Link>
-=======
-            <Link href="/designs/5#programs" className="hover:text-gray-300">
-              Programs
-            </Link>
->>>>>>> f24c0486f61a9cb0bcbbd483fa9bb7ac941a6ac3:app/(route)/designs/5/components/D5Navbar.jsx
+
           </li>
           <li>
             <Link href="/designs/5#latest-news" className="hover:text-gray-300">

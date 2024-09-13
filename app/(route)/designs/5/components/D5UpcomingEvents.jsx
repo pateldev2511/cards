@@ -3,17 +3,17 @@ export default function D5UpcomingEvents() {
     const events = [
       {
         date: "Sun, Sep 23",
-        title: "10K Against Breast Cancer",
+        title: "Open House & Treat",
         location: "San Francisco",
       },
       {
         date: "Tue, Nov 20",
-        title: "Women Engineers Teach Javascript",
+        title: "Weight Lifting",
         location: "San Francisco",
       },
       {
         date: "Wed, Dec 19",
-        title: "Lecture: The Gender Pay Gap",
+        title: "Veternes Family Lunch",
         location: "San Francisco",
       },
     ];

@@ -3,6 +3,7 @@ import React from "react";
 import D5ThreeBoxSection from "./components/D5ThreeBoxSection";
 import D5SocialMediaIcons from "./components/D5SocialMediaIcons";
 import D5JoinUs from "./components/D5JoinUs";
+import D5Aboutus from "./components/D5Aboutus";
 import D5WellnessProgram from "./components/D5Wellnessprogram";
 import D5UpcomingEvents from "./components/D5UpcomingEvents";
 import D5Footer from "./components/D5footer";
@@ -19,10 +20,11 @@ const DesignFive = () => {
       <D5HeroSection />
       <D5ThreeBoxSection />
       <D5SocialMediaIcons />
-      <D5LatestNews />
-      <D5JoinUs />
-      <D5WellnessProgram />
       <D5UpcomingEvents />
+      <D5JoinUs />
+      <D5Aboutus />
+      <D5WellnessProgram />
+      <D5LatestNews />
       <D5Footer />
     </div>
   );

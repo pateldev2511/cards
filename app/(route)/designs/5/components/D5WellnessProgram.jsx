@@ -19,7 +19,7 @@ export default function D5WellnessProgram() {
             Our Approach
           </h2>
           <p className="text-lg text-gray-200">
-            At Magnus Veterans Foundation, we believe in a holistic approach to
+            At Liberty Veterans Foundation, we believe in a holistic approach to
             health and performance. Our programs are designed to address both
             physical and mental well-being to ensure that veterans receive the
             comprehensive care they deserve. Our team of experts works closely

@@ -39,8 +39,11 @@ const Main = () => {
       <Header />
       <main>
         <HeroSection />
-        <ServiceSection />
+
         <MainServices />
+        <ServiceSection />
+
+        <AboutUs />
         <div className="mt-16 text-center">
           <h2 className="text-3xl md:text-4xl font-bold">
             Our Handmade Accessories{" "}
@@ -64,7 +67,6 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <AboutUs />
         <ContactUs />
       </main>
       <Footer />

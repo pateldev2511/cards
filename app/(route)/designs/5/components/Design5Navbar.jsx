@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 
-export default function D5Navbar() {
+export default function Design5Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {

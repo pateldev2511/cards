@@ -1,6 +1,6 @@
 "use client";
 
-export default function D5Aboutus() {
+export default function Design5Aboutus() {
   return (
     <div className="bg-white">
       {/* Header Section */}

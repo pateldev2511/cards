@@ -1,7 +1,7 @@
 "use client";
 
 // compenets/JoinUs.js
-export default function D5JoinUs() {
+export default function Design5JoinUs() {
   return (
     <div
       id="join-us"

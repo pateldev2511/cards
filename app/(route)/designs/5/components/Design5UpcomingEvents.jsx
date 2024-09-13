@@ -1,5 +1,5 @@
 //compenets/UpcomingEvents.js
-export default function D5UpcomingEvents() {
+export default function Design5UpcomingEvents() {
     const events = [
       {
         date: "Sun, Sep 23",

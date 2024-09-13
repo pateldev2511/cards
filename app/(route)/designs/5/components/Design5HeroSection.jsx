@@ -1,5 +1,5 @@
 import React from "react";
-const D5HeroSection = () => {
+const Design5HeroSection = () => {
   return (
     <div
       className="relative bg-cover bg-center h-screen md:h-[75vh] flex items-center justify-center"
@@ -22,4 +22,4 @@ const D5HeroSection = () => {
   );
 };
 
-export default D5HeroSection;
+export default Design5HeroSection;

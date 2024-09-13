@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 // compenents/footer.js
-export default function D5Footer() {
+export default function Design5Footer() {
   return (
     <footer className="bg-gray-800 pt-12 text-white">
       <div className="container mx-auto px-4 md:px-20">

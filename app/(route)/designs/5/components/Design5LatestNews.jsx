@@ -1,7 +1,7 @@
 'use client'
-import Link from "next/link";
+
 // compenets/LatestNews.js
-export default function D3LatestNews() {
+export default function Design5LatestNews() {
     const newsData = [
       {
         title: "Veterans Team Wins Major Award",

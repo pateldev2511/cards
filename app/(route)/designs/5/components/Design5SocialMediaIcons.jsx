@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-const D5SocialMediaIcons = () => {
+const Design5SocialMediaIcons = () => {
   return (
     <div className="fixed right-0 top-1/3 flex flex-col space-y-2 pr-2">
       <Link href="#" className="bg-blue-600 text-white p-2 rounded hover:scale-110 transition transform duration-300">
@@ -28,4 +28,4 @@ const D5SocialMediaIcons = () => {
   );
 }
 
-export default D5SocialMediaIcons;
+export default Design5SocialMediaIcons;

@@ -1,6 +1,6 @@
 "use client";
 
-export default function D5WellnessProgram() {
+export default function Design5WellnessProgram() {
   return (
     <div className="bg-blue-500">
       <div id="programs" className="pb-10 text-white pt-10">

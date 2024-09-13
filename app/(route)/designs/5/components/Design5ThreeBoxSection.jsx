@@ -1,6 +1,6 @@
 import React from 'react';
 
-const  D5ThreeBoxSection = () => {
+const  Design5ThreeBoxSection = () => {
   return (
     <div className="flex flex-col md:flex-row justify-center items-stretch text-center h-fit md:h-[15vh]">
       <div className="bg-blue-700 text-white py-4 px-2 w-full md:w-1/2 flex-grow">
@@ -15,4 +15,4 @@ const  D5ThreeBoxSection = () => {
   );
 }
 
-export default  D5ThreeBoxSection;
+export default   Design5ThreeBoxSection;

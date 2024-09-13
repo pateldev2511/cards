@@ -14,8 +14,8 @@ export default function D5JoinUs() {
           </button>
         </div>
         <div className="w-full md:w-1/2 h-1/2 md:h-full">
-          <mage
-            src="/D5/14.jpg"
+          <img
+            src="/d5/15.jpg"
             alt="Join Us Image"
             className="w-full h-full object-cover"
           />

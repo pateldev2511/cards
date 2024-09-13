@@ -7,7 +7,7 @@ import D5UpcomingEvents from "./components/D5UpcomingEvents";
 import D5Footer from "./components/D5footer";
 import D5LatestNews from "./components/D5LatestNew";
 import GoBackLink from "../components/GoBackLink";
-// import D5JoinUs from "./components/D5JoinUs";
+import D5JoinUs from "./components/D5JoinUs";
 
 const DesignFive = () => {
   return (
@@ -18,7 +18,7 @@ const DesignFive = () => {
       <D5ThreeBoxSection />
       <D5SocialMediaIcons />
       <D5LatestNews />
-      {/* <D5JoinUs /> */}
+      <D5JoinUs />
       <D5UpcomingEvents />
       <D5Footer />
     </div>

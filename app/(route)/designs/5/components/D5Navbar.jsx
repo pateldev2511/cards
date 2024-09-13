@@ -26,23 +26,28 @@ export default function D5Navbar() {
               About Us
             </Link>
           </li>
-          <li>
-            <Link href="/designs/5#programs" className="hover:text-gray-300"> Wellness Programs</Link>
 
-          </li>
           <li>
             <Link href="/designs/5#latest-news" className="hover:text-gray-300">
               Latest News
             </Link>
           </li>
           <li>
-            <Link href="/designs/5#events" className="hover:text-gray-300">
-              Events
+            <Link href="/designs/5#join-us" className="hover:text-gray-300">
+              Join Us
             </Link>
           </li>
           <li>
-            <Link href="/designs/5#join-us" className="hover:text-gray-300">
-              Join Us
+            <Link href="/designs/5#programs" className="hover:text-gray-300">
+              Wellness Programs
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/designs/5#upcoming-events"
+              className="hover:text-gray-300"
+            >
+              Events
             </Link>
           </li>
         </ul>
@@ -112,15 +117,6 @@ export default function D5Navbar() {
           </li>
           <li>
             <Link
-              href="/designs/5#programs"
-              onClick={handleCloseMenu}
-              className="hover:text-gray-300"
-            >
-              Programs
-            </Link>
-          </li>
-          <li>
-            <Link
               href="/designs/5#latest-news"
               onClick={handleCloseMenu}
               className="hover:text-gray-300"
@@ -129,8 +125,23 @@ export default function D5Navbar() {
             </Link>
           </li>
           <li>
+            <Link href="/designs/5#join-us" className="hover:text-gray-300">
+              Join Us
+            </Link>
+          </li>
+          <li>
             <Link
-              href="/designs/5#events"
+              href="/designs/5#programs"
+              onClick={handleCloseMenu}
+              className="hover:text-gray-300"
+            >
+              Programs
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              href="/designs/5#upcoming-events"
               onClick={handleCloseMenu}
               className="hover:text-gray-300"
             >
@@ -146,11 +157,7 @@ export default function D5Navbar() {
               Contact Us
             </Link>
           </li>
-          <li>
-            <Link href="/designs/5#join-us" className="hover:text-gray-300">
-              Join Us
-            </Link>
-          </li>
+
           <li>
             <Link
               href="/designs/5"

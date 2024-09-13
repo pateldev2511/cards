@@ -27,9 +27,8 @@ export default function D5Navbar() {
             </Link>
           </li>
           <li>
-            <Link href="/designs/5#programs" className="hover:text-gray-300">
-              Programs
-            </Link>
+            <Link href="/designs/5#programs" className="hover:text-gray-300"> Wellness Programs</Link>
+
           </li>
           <li>
             <Link href="/designs/5#latest-news" className="hover:text-gray-300">

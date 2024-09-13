@@ -7,11 +7,11 @@ const D5ThreeBoxSection = () => {
         <h2 className="text-2xl md:text-3xl font-bold">Our Mission</h2>
         <p>Our Goal, Vision & Commitment</p>
       </div>
-      <div className="bg-blue-500 text-white py-8 px-4 w-full md:w-1/3 flex-grow">
+      <div className="bg-blue-600 text-white py-8 px-4 w-full md:w-1/3 flex-grow">
         <h2 className="text-2xl md:text-3xl font-bold">Our Events</h2>
         <p>Register & Help Make Change</p>
       </div>
-      <div className="bg-blue-300 text-white py-8 px-4 w-full md:w-1/3 flex-grow">
+      <div className="bg-blue-500 text-white py-8 px-4 w-full md:w-1/3 flex-grow">
         <h2 className="text-2xl md:text-3xl font-bold">Get Involved</h2>
         <p>Volunteer, Participate, or Donate</p>
       </div>

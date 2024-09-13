@@ -1,32 +1,32 @@
 'use client'
-
+import Link from "next/link";
 // compenets/LatestNews.js
 export default function D3LatestNews() {
     const newsData = [
       {
         title: "Veterans Team Wins Major Award",
-        image: "https://northeastern-my.sharepoint.com/:i:/r/personal/patel_saura_northeastern_edu/Documents/Hai%20Griff%20Bco/BearBrown/Pexels/20_0813_1078.jpg?csf=1&web=1&e=aekogY",
+        image:"/D5/8.jpg",
         views: 141,
         comments: 0,
         likes: 2,
       },
       {
         title: "Providing Exceptional Health Care for Veterans and Their Families at No Cost",
-        image: "https://northeastern-my.sharepoint.com/:i:/r/personal/patel_saura_northeastern_edu/Documents/Hai%20Griff%20Bco/BearBrown/Pexels/20_0813_1077.jpg?csf=1&web=1&e=WgG3L6",
+        image: "/D5/3.jpg",
         views: 47,
         comments: 0,
         likes: 3,
       },
       {
         title: "Countries with the Best Veterans Leave Policies",
-        image: "https://northeastern-my.sharepoint.com/:i:/r/personal/patel_saura_northeastern_edu/Documents/Hai%20Griff%20Bco/BearBrown/Pexels/20_0813_1088.jpg?csf=1&web=1&e=XOCmwL",
+        image: "/D5/12.jpg",
         views: 34,
         comments: 0,
         likes: 3,
       },
       {
         title: "Restoring Health and Performance",
-        image: "https://northeastern-my.sharepoint.com/:i:/r/personal/patel_saura_northeastern_edu/Documents/Hai%20Griff%20Bco/BearBrown/Pexels/20_0813_1109.jpg?csf=1&web=1&e=RUtX3i",
+        image: "/D5/5.jpg",
         views: 55,
         comments: 0,
         likes: 3,

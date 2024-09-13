@@ -1,6 +1,5 @@
-'use client'
-import Image from "next/image";
 
+import Link from "next/link";
 // compenets/JoinUs.js
 export default function D5JoinUs() {
     return (
@@ -15,8 +14,8 @@ export default function D5JoinUs() {
           </button>
         </div>
         <div className="w-full md:w-1/2 h-1/2 md:h-full">
-          <img
-            src="https://northeastern-my.sharepoint.com/:i:/r/personal/patel_saura_northeastern_edu/Documents/Hai%20Griff%20Bco/BearBrown/Pexels/20_0813_1113.jpg?csf=1&web=1&e=vBQ82g"
+          <mage
+            src="/D5/14.jpg"
             alt="Join Us Image"
             className="w-full h-full object-cover"
           />

@@ -4,6 +4,7 @@ import D5HeroSection from './compenets/D5HERROS';
 import D5ThreeBoxSection from './compenets/D5ThreeBoxSection';
 import D5SocialMediaIcons from './compenets/D5SocialMediaIcons';
 import D5JoinUs from './compenets/D5JoinUs';
+import D5WellnessProgram from './compenets/D5Wellnessprogram';
 import D5UpcomingEvents from './compenets/D5UpcomingEvents';
 import D5Footer from './compenets/D5footer';
 import D5LatestNews from './compenets/D5LatestNew';
@@ -19,6 +20,7 @@ const DesignFive = () => {
       <D5SocialMediaIcons />
       <D5LatestNews />
       <D5JoinUs />
+      <D5WellnessProgram />
       <D5UpcomingEvents />
       <D5Footer />
     </div>

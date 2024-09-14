@@ -32,7 +32,7 @@ export default function Design5WellnessProgram() {
           </section>
 
           <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 ">
-            <div className=" rounded-lg overflow-hidden shadow-lg bg-gray-100">
+            <div className="border border-gray-200 rounded-lg overflow-hidden shadow-lg bg-gray-100">
               <img
                 src="/D5/16.jpg"
                 alt="Health Program"
@@ -51,7 +51,7 @@ export default function Design5WellnessProgram() {
               </div>
             </div>
 
-            <div className="rounded-lg overflow-hidden shadow-lg bg-gray-100">
+            <div className="border border-gray-20 rounded-lg overflow-hidden shadow-lg bg-gray-100">
               <img
                 src="/D5/17.jpg"
                 alt="Mental Health Support"
@@ -69,7 +69,7 @@ export default function Design5WellnessProgram() {
               </div>
             </div>
 
-            <div className="rounded-lg overflow-hidden shadow-lg bg-gray-100">
+            <div className="border border-gray-20 rounded-lg overflow-hidden shadow-lg bg-gray-100">
               <img
                 src="/D5/15.jpg"
                 alt="Community Engagement"

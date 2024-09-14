@@ -22,13 +22,13 @@ export default function Design5Navbar() {
         </Link>
         <ul className="hidden md:flex gap-4 justify-center items-center p-4">
           <li>
-            <Link href="/designs/5#join-us" className="hover:text-gray-300">
-              Join Us
+            <Link href="/designs/5#about-us" className="hover:text-gray-300">
+              About Us
             </Link>
           </li>
           <li>
-            <Link href="/designs/5#about-us" className="hover:text-gray-300">
-              About Us
+            <Link href="/designs/5#join-us" className="hover:text-gray-300">
+              Join Us
             </Link>
           </li>
 
@@ -109,17 +109,17 @@ export default function Design5Navbar() {
         </button>
         <ul className="flex flex-col space-y-4 mt-10 ml-4">
           <li>
-            <li>
-              <Link href="/designs/5#join-us" className="hover:text-gray-300">
-                Join Us
-              </Link>
-            </li>
             <Link
               href="/designs/5#about-us"
               onClick={handleCloseMenu}
               className="hover:text-gray-300"
             >
               About Us
+            </Link>
+          </li>
+          <li>
+            <Link href="/designs/5#join-us" className="hover:text-gray-300">
+              Join Us
             </Link>
           </li>
           <li>

@@ -14,7 +14,7 @@ const Design5HeroSection = () => {
           Dedicated to the health and wellness of our veterans and their
           families
         </p>
-        <button className="mt-6 bg-blue-500 text-white py-2 px-6 rounded hover:bg-blue-600 transition duration-200">
+        <button className="mt-6 bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-800 transition duration-200">
           Learn More
         </button>
       </div>

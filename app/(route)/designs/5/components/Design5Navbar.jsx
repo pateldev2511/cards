@@ -22,8 +22,19 @@ export default function Design5Navbar() {
         </Link>
         <ul className="hidden md:flex gap-4 justify-center items-center p-4">
           <li>
+            <Link href="/designs/5#join-us" className="hover:text-gray-300">
+              Join Us
+            </Link>
+          </li>
+          <li>
             <Link href="/designs/5#about-us" className="hover:text-gray-300">
               About Us
+            </Link>
+          </li>
+
+          <li>
+            <Link href="/designs/5#programs" className="hover:text-gray-300">
+              Wellness Programs
             </Link>
           </li>
 
@@ -32,16 +43,7 @@ export default function Design5Navbar() {
               Latest News
             </Link>
           </li>
-          <li>
-            <Link href="/designs/5#join-us" className="hover:text-gray-300">
-              Join Us
-            </Link>
-          </li>
-          <li>
-            <Link href="/designs/5#programs" className="hover:text-gray-300">
-              Wellness Programs
-            </Link>
-          </li>
+
           <li>
             <Link
               href="/designs/5#upcoming-events"
@@ -107,12 +109,26 @@ export default function Design5Navbar() {
         </button>
         <ul className="flex flex-col space-y-4 mt-10 ml-4">
           <li>
+            <li>
+              <Link href="/designs/5#join-us" className="hover:text-gray-300">
+                Join Us
+              </Link>
+            </li>
             <Link
               href="/designs/5#about-us"
               onClick={handleCloseMenu}
               className="hover:text-gray-300"
             >
               About Us
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/designs/5#programs"
+              onClick={handleCloseMenu}
+              className="hover:text-gray-300"
+            >
+              Wellness Programs
             </Link>
           </li>
           <li>
@@ -124,20 +140,6 @@ export default function Design5Navbar() {
               Latest News
             </Link>
           </li>
-          <li>
-            <Link href="/designs/5#join-us" className="hover:text-gray-300">
-              Join Us
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/designs/5#programs"
-              onClick={handleCloseMenu}
-              className="hover:text-gray-300"
-            >
-              Programs
-            </Link>
-          </li>
 
           <li>
             <Link
@@ -146,15 +148,6 @@ export default function Design5Navbar() {
               className="hover:text-gray-300"
             >
               Events
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/designs/5#contact-us"
-              onClick={handleCloseMenu}
-              className="hover:text-gray-300"
-            >
-              Contact Us
             </Link>
           </li>
 

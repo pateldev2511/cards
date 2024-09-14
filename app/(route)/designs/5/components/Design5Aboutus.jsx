@@ -8,7 +8,9 @@ export default function Design5Aboutus() {
           {/* Header Section */}
           <div id="about-us" className="pb-10 bg-white  pt-10">
             <div className="container mx-auto text-center">
-              <h1 className="text-4xl font-bold text-blue-500">About Us</h1>
+              <h1 className="text-5xl font-bold text-center mb-8 text-gray-800">
+                About Us
+              </h1>
               <p className="mt-4 text-lg text-gray-600">
                 Dedicated to Supporting and Honoring Our Veterans and Their
                 Families
@@ -127,7 +129,7 @@ export default function Design5Aboutus() {
             <section className="text-center">
               <a
                 href="#contact"
-                className="bg-blue-600 text-white py-3 px-6 rounded-md hover:bg-blue-700 transition duration-300"
+                className="bg-blue-600 text-white py-3 px-6 rounded-md hover:bg-blue-800 transition duration-300"
               >
                 Get In Touch
               </a>

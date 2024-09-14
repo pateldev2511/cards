@@ -2,24 +2,26 @@
 
 export default function Design5WellnessProgram() {
   return (
-    <div className="bg-blue-500 ">
+    <div className="bg-white">
       <div className="flex-col items-center justify-center">
-        <div id="programs" className="pb-10 text-white pt-10">
+        <div id="programs" className="pb-10  pt-10">
           <div className="container mx-auto text-center">
-            <h1 className="text-4xl font-bold">Wellness Programs</h1>
-            <p className="mt-4 text-lg">
+            <h1 className="text-4xl font-bold text-blue-600">
+              Wellness Programs
+            </h1>
+            <p className="mt-4 text-lg text-gray-600">
               Empowering Veterans through Comprehensive Health and Performance
               Programs
             </p>
           </div>
         </div>
 
-        <main className="container mx-auto py-16 px-4 max-w-screen-xl ">
-          <section className="mb-16">
-            <h2 className="text-3xl font-semibold mb-8 text-white">
+        <main className="container mx-auto pb-10 pt-4 px-4 max-w-screen-xl ">
+          <section className="mb-10">
+            <h2 className="text-3xl font-semibold mb-8 text-gray-800">
               Our Approach
             </h2>
-            <p className="text-lg text-white">
+            <p className="text-lg text-gray-700">
               At Liberty Veterans Foundation, we believe in a holistic approach
               to health and performance. Our programs are designed to address
               both physical and mental well-being to ensure that veterans
@@ -89,7 +91,7 @@ export default function Design5WellnessProgram() {
           <section className="text-center">
             <a
               href="#contact"
-              className="bg-gray-100 text-blue-500 py-3 px-6 rounded-md hover:bg-gray-200 hover:text-blue-600 transition duration-300"
+              className="bg-blue-600 text-white py-3 px-6 rounded-md hover:bg-blue-800 transition duration-300"
             >
               <span>Get In Touch</span>
             </a>

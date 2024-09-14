@@ -20,11 +20,11 @@ const DesignFive = () => {
       <Design5HeroSection />
       <Design5ThreeBoxSection />
       <Design5SocialMediaIcons />
-      <Design5UpcomingEvents />
-      <Design5JoinUs />
       <Design5Aboutus />
+      <Design5JoinUs />
       <Design5WellnessProgram />
       <Design5LatestNews />
+      <Design5UpcomingEvents />
       <Design5Footer />
     </div>
   );

@@ -19,7 +19,7 @@ export default function Design5UpcomingEvents() {
   ];
 
   return (
-    <div id="upcoming-events" className="px-4 md:px-20 py-16 bg-gray-100">
+    <div id="upcoming-events" className="px-4 md:px-20 py-16 bg-white">
       <h2 className="text-4xl md:text-3xl font-bold text-center mb-8 text-gray-800">
         Upcoming Events
       </h2>
@@ -37,7 +37,7 @@ export default function Design5UpcomingEvents() {
               <p className="text-gray-500">{event.location}</p>
             </div>
             <div className="mt-4 md:mt-0">
-              <button className="bg-blue-500 text-white py-2 px-6 rounded hover:bg-blue-600 transition duration-200">
+              <button className="bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-800 transition duration-200">
                 Register Now
               </button>
             </div>

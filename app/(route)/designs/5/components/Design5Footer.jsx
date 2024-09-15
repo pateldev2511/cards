@@ -36,7 +36,9 @@ export default function Design5Footer() {
                 placeholder="Enter your email here *"
                 className="py-2 px-4 w-full focus:outline-none focus:ring-2 focus:ring-stone-500 bg-stone-100 text-white"
               />
+
               <button className="bg-stone-500 text-white py-2 px-6 rounded hover:bg-stone-500 transition duration-200">
+
                 Sign Up!
               </button>
             </div>

@@ -37,9 +37,16 @@ export default function Design5UpcomingEvents() {
                   Register Now
                 </button>
               </div>
+
             </div>
-          ))}
-        </div>
+            <div className="mt-4 md:mt-0">
+              <button className="bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-800 transition duration-200">
+                Register Now
+              </button>
+            </div>
+          </div>
+        ))}
       </div>
-    );
+    </div>
+  );
 }

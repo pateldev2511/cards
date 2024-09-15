@@ -25,13 +25,6 @@ export default function Design5LatestNews() {
       comments: 0,
       likes: 3,
     },
-    {
-      title: "Restoring Health and Performance",
-      image: "/D5/5.jpg",
-      views: 55,
-      comments: 0,
-      likes: 3,
-    },
   ];
 
   return (
@@ -64,7 +57,7 @@ export default function Design5LatestNews() {
         ))}
       </div>
       <div className="flex justify-center mt-8">
-        <button className="bg-stone-500 text-white py-2 px-6 rounded hover:bg-stone-600 transition duration-200">
+        <button className="bg-blue-700 text-white py-2 px-6 rounded hover:bg-blue-600 transition duration-200">
           Read More
         </button>
       </div>

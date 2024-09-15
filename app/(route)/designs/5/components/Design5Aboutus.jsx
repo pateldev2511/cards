@@ -2,16 +2,16 @@
 
 export default function Design5Aboutus() {
   return (
-    <div className="bg-white">
+    <div className="bg-blue-700">
       <div className="max-w-screen-xl mx-auto">
         <div className="flex flex-col  items-center justify-center">
           {/* Header Section */}
-          <div id="about-us" className="pb-10 bg-white  pt-10">
+          <div id="about-us" className="pb-10 bg-blue-700 pt-10">
             <div className="container mx-auto text-center">
-              <h1 className="text-5xl font-bold text-center mb-8 text-gray-800">
+              <h1 className="text-5xl font-bold text-center mb-8 text-zinc-900">
                 About Us
               </h1>
-              <p className="mt-4 text-lg text-gray-600">
+              <p className="mt-4 text-lg text-white">
                 Dedicated to Supporting and Honoring Our Veterans and Their
                 Families
               </p>
@@ -21,53 +21,21 @@ export default function Design5Aboutus() {
           <main className="container mx-auto py-16 px-4">
             {/* Mission Statement Section */}
             <section className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8 text-gray-800">
+              <h2 className="text-3xl font-semibold mb-8 text-zinc-900">
                 Restoring the Warrior Spirit
               </h2>
-              <p className="text-lg text-gray-600">
-                The Liberty Veterans Foundation was founded by veterans and
-                their families as a tax-exempt 501(c)(3) non-profit
-                organization. Our founders collectively boast over a century of
-                military service, with the majority of this experience rooted in
-                Special Operations Forces, providing a unique depth of knowledge
-                and commitment to our cause. Our dedicated team is composed of
-                physicians, licensed professionals, veteran families, community
-                leaders, and military service advocates. They possess a profound
-                understanding of the challenges and effects of war and military
-                service on veterans and their families. We are fully committed
-                to applying our expertise and leadership to the Liberty Mission.
-                Our goal is to establish a comprehensive care clinic that
-                focuses on the specialized health and performance needs of
-                veterans, ensuring they receive the holistic support necessary
-                for their well-being and recovery.
+              <p className="text-lg text-white">
+              The Liberty Veterans Foundation, a 501(c)(3) non-profit, was founded by veterans and their families with over a century of combined military experience, primarily in Special Operations. Our team includes physicians, licensed professionals, veteran families, and community leaders, all dedicated to addressing the unique challenges faced by veterans. We aim to create a comprehensive care clinic to provide holistic support for their health and recovery.
               </p>
             </section>
 
             {/* Approach Section */}
             <section className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8 text-gray-800">
+              <h2 className="text-3xl font-semibold mb-8 text-zinc-900">
                 Introducing the Liberty Veterans Wellness Campus (LVWC)
               </h2>
-              <p className="text-lg text-gray-600">
-                The Liberty Veterans Wellness Campus (LVWC) officially launched
-                on September 1, 2024, offering the most thorough approach to
-                veteran and veteran family health and wellness available today.
-                Nestled on a picturesque 55-acre estate in Jackson, TN, the
-                campus features a medical and psychological health clinic, a
-                state-of-the-art gym equipped with Life Fitness machines, as
-                well as dedicated spaces for mindfulness and artistic
-                expression. The LVWC is dedicated to fostering community
-                engagement through ongoing fundraising events designed to
-                support memberships and strengthen connections between members
-                and the surrounding community. Our expert staff deliver
-                programming centered around our Five Performance Pillars, while
-                volunteers play a crucial role in bridging the gap between the
-                community and those who have served. At Liberty, we provide not
-                only exceptional, life-saving care but also strive to build a
-                welcoming environment where every member feels included and
-                valued. Our goal is to celebrate and honor all those who have
-                served our country—both veterans and their families. Liberty is
-                uniquely committed to this mission.
+              <p className="text-lg text-white">
+              The Liberty Veterans Wellness Campus (LVWC) launched on September 1, 2024, offering a comprehensive approach to veteran and veteran family health. Located on a scenic 55-acre estate in Jackson, TN, the campus includes a medical and psychological clinic, a state-of-the-art gym with Life Fitness equipment, and spaces for mindfulness and artistic expression. LVWC fosters community engagement through fundraising events to support memberships and strengthen local connections. Our expert staff provides programming based on our Five Performance Pillars, while volunteers help bridge the gap between the community and veterans. We are dedicated to delivering exceptional care in a welcoming environment, honoring and celebrating all who have served our country.
               </p>
             </section>
 
@@ -80,12 +48,11 @@ export default function Design5Aboutus() {
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-700">
+                  <h3 className="text-xl font-semibold text-gray-900">
                     Elisia jones
                   </h3>
                   <p className="text-gray-500 mt-2">
-                    Founder & CEO - Our foundation with a deep commitment to
-                    veteran support and community outreach.
+                    Founder & CEO 
                   </p>
                 </div>
               </div>
@@ -97,12 +64,11 @@ export default function Design5Aboutus() {
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-700">
+                  <h3 className="text-xl font-semibold text-gray-800">
                     Elis Smith
                   </h3>
                   <p className="text-gray-500 mt-2">
-                    Program Director - Our various programs and ensures they
-                    meet the needs of our veterans.
+                    Program Director 
                   </p>
                 </div>
               </div>
@@ -114,12 +80,11 @@ export default function Design5Aboutus() {
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-700">
+                  <h3 className="text-xl font-semibold text-gray-800">
                     Robert Harish
                   </h3>
                   <p className="text-gray-500 mt-2">
-                    Community Outreach Coordinator - Harish builds partnerships
-                    and expands our network to better support our community.
+                    Community Outreach Coordinator 
                   </p>
                 </div>
               </div>
@@ -129,7 +94,7 @@ export default function Design5Aboutus() {
             <section className="text-center">
               <a
                 href="#contact"
-                className="bg-stone-600 text-white py-3 px-6 rounded-md hover:bg-stone-800 transition duration-300"
+                className="bg-blue-500 text-white py-3 px-6 rounded-md hover:bg-blue-700 transition duration-300"
               >
                 Get In Touch
               </a>

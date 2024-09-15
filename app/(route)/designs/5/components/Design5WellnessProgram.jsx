@@ -3,8 +3,8 @@
 export default function Design5WellnessProgram() {
   return (
 
-    <div className="bg-stone-400">
-      <div id="programs" className="pb-10 text-white pt-10">
+    <div className="bg-white">
+      <div id="programs" className="pb-10 text-stone-800 pt-10">
         <div className="container mx-auto text-center">
           <h1 className="text-4xl font-bold">Wellness Programs</h1>
           <p className="mt-4 text-lg">
@@ -15,10 +15,10 @@ export default function Design5WellnessProgram() {
         </div>
         <main className="container mx-auto py-16 px-4">
         <section className="mb-16">
-          <h2 className="text-3xl font-semibold mb-8 text-gray-100">
+          <h2 className="text-3xl font-semibold mb-8 text-stone-800">
             Our Approach
           </h2>
-          <p className="text-lg text-gray-200">
+          <p className="text-lg text-stone-700">
             At Liberty Veterans Foundation, we believe in a holistic approach to
             health and performance. Our programs are designed to address both
             physical and mental well-being to ensure that veterans receive the
@@ -88,7 +88,7 @@ export default function Design5WellnessProgram() {
         <section className="text-center">
           <a
             href="#contact"
-            className="bg-gray-100 text-stone-500 py-3 px-6 rounded-lg hover:bg-stone-700 transition duration-300"
+            className="bg-blue-700 text-white py-3 px-6 rounded-lg hover:bg-blue-600 transition duration-300"
           >
             Get In Touch
           </a>

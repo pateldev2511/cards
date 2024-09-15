@@ -33,7 +33,7 @@ export default function Design5UpcomingEvents() {
               <p className="text-gray-500">{event.location}</p>
             </div>
             <div className="mt-4 md:mt-0">
-              <button className="bg-stone-500 text-white py-2 px-6 rounded hover:bg-stone-600 transition duration-200">
+              <button className="bg-blue-700 text-white py-2 px-6 rounded hover:bg-blue-600 transition duration-200">
                 Register Now
               </button>
             </div>
@@ -41,7 +41,7 @@ export default function Design5UpcomingEvents() {
         ))}
       </div>
       <div className="flex justify-center mt-8">
-        <button className="bg-stone-600 text-white py-2 px-6 rounded hover:bg-stone-800 transition duration-200">
+        <button className="bg-blue-700 text-white py-2 px-6 rounded hover:bg-blue-600 transition duration-200">
           Register Now
         </button>
       </div>

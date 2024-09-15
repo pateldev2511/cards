@@ -15,7 +15,7 @@ export default function Design5Navbar() {
   };
 
   return (
-    <nav className="bg-stone-700 text-white flex justify-between items-center">
+    <nav className="bg-blue-900 text-white flex justify-between items-center">
       <div className="flex items-center gap-4 p-4">
         <Link href="/designs/5" className="text-xl font-bold">
           Liberty Veterans
@@ -63,7 +63,7 @@ export default function Design5Navbar() {
         </Link>
         <Link
           href="/designs/5"
-          className="bg-stone-500 text-white py-2 px-4 mx-0 hidden md:block hover:bg-stone-600 transition duration-200"
+          className="bg-blue-700 text-white py-2 px-4 mx-0 hidden md:block hover:bg-blue-600 transition duration-200"
         >
           Donate
         </Link>

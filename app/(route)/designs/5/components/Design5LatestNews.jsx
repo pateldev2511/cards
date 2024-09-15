@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-// components/LatestNews.js
+
 export default function Design5LatestNews() {
   const newsData = [
     {
@@ -42,10 +42,7 @@ export default function Design5LatestNews() {
       {/* Added max-w-screen-lg and mx-auto to center and limit the width */}
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-10">
         {newsData.map((news, index) => (
-          <div
-            key={index}
-            className="border rounded overflow-hidden bg-white shadow-lg"
-          >
+          <div key={index} className="border rounded overflow-hidden bg-white shadow-lg">
             <img
               src={news.image}
               alt={news.title}
@@ -63,18 +60,11 @@ export default function Design5LatestNews() {
                 <span>♡ {news.likes}</span>
               </div>
             </div>
-
-          ))}
-        </div>
-        <div className="flex justify-center mt-8">
-          <button className="bg-stone-500 text-white py-2 px-6 rounded hover:bg-stone-600 transition duration-200">
-            Read More
-          </button>
-        </div>
-
+          </div>
+        ))}
       </div>
       <div className="flex justify-center mt-8">
-        <button className="bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-800 transition duration-200">
+        <button className="bg-stone-500 text-white py-2 px-6 rounded hover:bg-stone-600 transition duration-200">
           Read More
         </button>
       </div>

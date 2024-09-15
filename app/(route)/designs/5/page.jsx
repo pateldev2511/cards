@@ -20,10 +20,10 @@ const DesignFive = () => {
       <Design5HeroSection />
       <Design5ThreeBoxSection />
       <Design5SocialMediaIcons />
-      <Design5Aboutus />
-      <Design5JoinUs />
       <Design5WellnessProgram />
+      <Design5Aboutus />
       <Design5LatestNews />
+      <Design5JoinUs />
       <Design5UpcomingEvents />
       <Design5Footer />
     </div>

@@ -15,7 +15,7 @@ export default function Design5Navbar() {
   };
 
   return (
-    <nav className="bg-blue-700 text-white flex justify-between items-center">
+    <nav className="bg-stone-700 text-white flex justify-between items-center">
       <div className="flex items-center gap-4 p-4">
         <Link href="/designs/5" className="text-xl font-bold">
           Liberty Veterans
@@ -61,7 +61,7 @@ export default function Design5Navbar() {
         </Link>
         <Link
           href="/designs/5"
-          className="bg-blue-500 text-white py-2 px-4 mx-0 hidden md:block hover:bg-blue-600 transition duration-200"
+          className="bg-stone-500 text-white py-2 px-4 mx-0 hidden md:block hover:bg-stone-600 transition duration-200"
         >
           Donate
         </Link>
@@ -88,7 +88,7 @@ export default function Design5Navbar() {
       </div>
       {/* Mobile Menu */}
       <div
-        className={`z-50 fixed top-0 right-0 w-64 h-full bg-blue-700/80 backdrop-blur-md text-white transform ${
+        className={`z-50 fixed top-0 right-0 w-64 h-full bg-stone-700/80 backdrop-blur-md text-white transform ${
           isOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 ease-in-out md:hidden`}
       >
@@ -161,7 +161,7 @@ export default function Design5Navbar() {
           <li>
             <Link
               href="/designs/5"
-              className="bg-blue-500 text-white py-2 px-4 rounded-none mt-4 hover:bg-blue-600 transition duration-200"
+              className="bg-blue-500 text-white py-2 px-4 rounded-none mt-4 hover:bg-stone-500 transition duration-200"
               onClick={handleCloseMenu}
             >
               Donate

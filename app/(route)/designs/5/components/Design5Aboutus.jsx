@@ -16,7 +16,7 @@ export default function Design5Aboutus() {
       <main className="container mx-auto py-16 px-4">
         {/* Mission Statement Section */}
         <section className="mb-16">
-          <h2 className="text-3xl font-semibold mb-8 text-blue-500">
+          <h2 className="text-3xl font-semibold mb-8 text-stone-500">
           Restoring the Warrior Spirit
           </h2>
           <p className="text-lg text-gray-800">
@@ -30,7 +30,7 @@ We are fully committed to applying our expertise and leadership to the Liberty M
 
         {/* Approach Section */}
         <section className="mb-16">
-          <h2 className="text-3xl font-semibold mb-8 text-blue-500">
+          <h2 className="text-3xl font-semibold mb-8 text-stone-500">
           Introducing the Liberty Veterans Wellness Campus (LVWC)
           </h2>
           <p className="text-lg text-gray-800">
@@ -92,7 +92,7 @@ At Liberty, we provide not only exceptional, life-saving care but also strive to
         <section className="text-center">
           <a
             href="#contact"
-            className="bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300"
+            className="bg-stone-600 text-white py-3 px-6 rounded-lg hover:bg-stone-700 transition duration-300"
           >
             Get In Touch
           </a>

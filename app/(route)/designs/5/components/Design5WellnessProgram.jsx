@@ -2,7 +2,7 @@
 
 export default function Design5WellnessProgram() {
   return (
-    <div className="bg-blue-500">
+    <div className="bg-stone-400">
       <div id="programs" className="pb-10 text-white pt-10">
         <div className="container mx-auto text-center">
           <h1 className="text-4xl font-bold">Wellness Programs</h1>
@@ -88,7 +88,7 @@ export default function Design5WellnessProgram() {
         <section className="text-center">
           <a
             href="#contact"
-            className="bg-gray-100 text-blue-500 py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300"
+            className="bg-gray-100 text-stone-500 py-3 px-6 rounded-lg hover:bg-stone-700 transition duration-300"
           >
             Get In Touch
           </a>

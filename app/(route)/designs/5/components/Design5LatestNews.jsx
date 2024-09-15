@@ -54,7 +54,7 @@ export default function Design5LatestNews() {
           ))}
         </div>
         <div className="flex justify-center mt-8">
-          <button className="bg-blue-500 text-white py-2 px-6 rounded hover:bg-blue-600 transition duration-200">
+          <button className="bg-stone-500 text-white py-2 px-6 rounded hover:bg-stone-600 transition duration-200">
             Read More
           </button>
         </div>

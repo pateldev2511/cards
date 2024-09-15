@@ -3,7 +3,7 @@ import Link from "next/link";
 // compenents/footer.js
 export default function Design5Footer() {
   return (
-    <footer className="bg-gray-800 pt-12 text-white">
+    <footer className="bg-stone-800 pt-12 text-white">
       <div className="container mx-auto px-4 md:px-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center">
           {/* About Section */}
@@ -34,9 +34,9 @@ export default function Design5Footer() {
               <input
                 type="email"
                 placeholder="Enter your email here *"
-                className="py-2 px-4 w-full focus:outline-none focus:ring-2 focus:ring-blue-500 bg-gray-700 text-white"
+                className="py-2 px-4 w-full focus:outline-none focus:ring-2 focus:ring-stone-500 bg-stone-100 text-white"
               />
-              <button className="bg-blue-500 text-white py-2 px-6 rounded hover:bg-blue-600 transition duration-200">
+              <button className="bg-stone-500 text-white py-2 px-6 rounded hover:bg-stone-500 transition duration-200">
                 Sign Up!
               </button>
             </div>
@@ -80,7 +80,7 @@ export default function Design5Footer() {
           </div>
         </div>
       </div>
-      <div className="text-center mt-8 border-t py-4 text-sm bg-gray-900 flex flex-col md:flex-row justify-center items-center">
+      <div className="text-center mt-8 border-t py-4 text-sm bg-stone-800 flex flex-col md:flex-row justify-center items-center">
         <p>© 2024 Liberty Veterans Foundation. Powered and secured by Cards</p>
         <p className="md:ml-4 mt-2 md:mt-0">
           <Link href="#" className="hover:underline">

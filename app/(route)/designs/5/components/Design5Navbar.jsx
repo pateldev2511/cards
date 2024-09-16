@@ -21,26 +21,24 @@ export default function Design5Navbar() {
           Liberty Veterans
         </Link>
         <ul className="hidden md:flex gap-4 justify-center items-center p-4">
+        <li>
+            <Link href="/designs/5#programs" className="hover:text-gray-300">
+              Wellness Programs
+            </Link>
+          </li>
           <li>
             <Link href="/designs/5#about-us" className="hover:text-gray-300">
               About Us
             </Link>
           </li>
           <li>
-            <Link href="/designs/5#join-us" className="hover:text-gray-300">
-              Join Us
-            </Link>
-          </li>
-
-          <li>
-            <Link href="/designs/5#programs" className="hover:text-gray-300">
-              Wellness Programs
-            </Link>
-          </li>
-
-          <li>
             <Link href="/designs/5#latest-news" className="hover:text-gray-300">
               Latest News
+            </Link>
+          </li>
+          <li>
+            <Link href="/designs/5#join-us" className="hover:text-gray-300">
+              Join Us
             </Link>
           </li>
 

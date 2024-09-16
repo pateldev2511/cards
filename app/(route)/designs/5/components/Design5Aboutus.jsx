@@ -8,7 +8,7 @@ export default function Design5Aboutus() {
           {/* Header Section */}
           <div id="about-us" className="pb-10 bg-blue-700 pt-10">
             <div className="container mx-auto text-center">
-              <h1 className="text-5xl font-bold text-center mb-8 text-zinc-900">
+              <h1 className="text-5xl font-bold text-center mb-8 text-white">
                 About Us
               </h1>
               <p className="mt-4 text-lg text-white">
@@ -21,7 +21,7 @@ export default function Design5Aboutus() {
           <main className="container mx-auto py-16 px-4">
             {/* Mission Statement Section */}
             <section className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8 text-zinc-900">
+              <h2 className="text-3xl font-semibold mb-8 text-white">
                 Restoring the Warrior Spirit
               </h2>
               <p className="text-lg text-white">
@@ -31,11 +31,11 @@ export default function Design5Aboutus() {
 
             {/* Approach Section */}
             <section className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8 text-zinc-900">
+              <h2 className="text-3xl font-semibold mb-8 text-white">
                 Introducing the Liberty Veterans Wellness Campus (LVWC)
               </h2>
               <p className="text-lg text-white">
-              The Liberty Veterans Wellness Campus (LVWC) launched on September 1, 2024, offering a comprehensive approach to veteran and veteran family health. Located on a scenic 55-acre estate in Jackson, TN, the campus includes a medical and psychological clinic, a state-of-the-art gym with Life Fitness equipment, and spaces for mindfulness and artistic expression. LVWC fosters community engagement through fundraising events to support memberships and strengthen local connections. Our expert staff provides programming based on our Five Performance Pillars, while volunteers help bridge the gap between the community and veterans. We are dedicated to delivering exceptional care in a welcoming environment, honoring and celebrating all who have served our country.
+              The Liberty Veterans Wellness Campus (LVWC), launched on September 1, 2024, provides a holistic approach to veteran and family health on a scenic 55-acre estate in Jackson, TN. It features medical and psychological clinics, a state-of-the-art gym, and spaces for mindfulness and artistic expression. LVWC fosters community engagement through events, expert programming, and volunteer support, honoring those who have served.
               </p>
             </section>
 
@@ -43,7 +43,7 @@ export default function Design5Aboutus() {
             <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
               <div className="border border-gray-200 rounded-lg overflow-hidden shadow-lg bg-zinc-50">
                 <img
-                  src="/d5/c3.jpg"
+                  src="/d5/c1.jpg"
                   alt="Team Member 1"
                   className="w-full h-48 object-cover"
                 />
@@ -59,7 +59,7 @@ export default function Design5Aboutus() {
 
               <div className="border border-gray-200 rounded-lg overflow-hidden shadow-lg bg-zinc-50">
                 <img
-                  src="/d5/c1.jpg"
+                  src="/d5/c3.jpg"
                   alt="Team Member 2"
                   className="w-full h-48 object-cover"
                 />

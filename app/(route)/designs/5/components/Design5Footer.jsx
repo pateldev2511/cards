@@ -37,7 +37,7 @@ export default function Design5Footer() {
                 className="py-2 px-4 w-full focus:outline-none focus:ring-2 focus:ring-blue-800 bg-stone-100 text-white"
               />
 
-              <button className="bg-blue-700 text-white py-2 px-6 rounded hover:bg-stone-500 transition duration-200">
+              <button className="bg-blue-700 text-white py-2 px-6 rounded hover:bg-blue-600 transition duration-200">
 
                 Sign Up!
               </button>

@@ -8,7 +8,7 @@ export default function Design5Aboutus() {
           {/* Header Section */}
           <div id="about-us" className="pb-10 bg-blue-700 pt-10">
             <div className="container mx-auto text-center">
-              <h1 className="text-5xl font-bold text-center mb-8 text-zinc-900">
+              <h1 className="text-5xl font-bold text-center mb-8 text-white">
                 About Us
               </h1>
               <p className="mt-4 text-lg text-white">
@@ -21,7 +21,7 @@ export default function Design5Aboutus() {
           <main className="container mx-auto py-16 px-4">
             {/* Mission Statement Section */}
             <section className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8 text-zinc-900">
+              <h2 className="text-3xl font-semibold mb-8 text-white">
                 Restoring the Warrior Spirit
               </h2>
               <p className="text-lg text-white">
@@ -31,7 +31,7 @@ export default function Design5Aboutus() {
 
             {/* Approach Section */}
             <section className="mb-16">
-              <h2 className="text-3xl font-semibold mb-8 text-zinc-900">
+              <h2 className="text-3xl font-semibold mb-8 text-white">
                 Introducing the Liberty Veterans Wellness Campus (LVWC)
               </h2>
               <p className="text-lg text-white">

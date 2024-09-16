@@ -23,7 +23,7 @@ export default function GetInvolvedSection() {
             </div>
           </div>
           <img
-            src="/placeholder.svg"
+            src="/d6/d6-get-involved.webp"
             width="600"
             height="400"
             alt="Get Involved"

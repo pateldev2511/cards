@@ -9,7 +9,7 @@ const  Design5ThreeBoxSection = () => {
       </div>
       <div className="bg-blue-600 text-white py-4 px-2 w-full md:w-1/2 flex-grow">
         <h2 className="text-xl md:text-2xl font-bold">Get Involved</h2>
-        <p className="text-sm md:text-base">Revitalize the Warrior Spirit by creating meaningful connections between those who serve and those they serve. By bridging these divides, we foster understanding and unity, enhancing the support and respect both groups receive.</p>
+        <p className="text-sm md:text-base">Revitalize the Warrior Spirit by creating connections between those who serve and those they serve. This fosters understanding and unity, boosting support and respect for both.</p>
       </div>
     </div>
   );

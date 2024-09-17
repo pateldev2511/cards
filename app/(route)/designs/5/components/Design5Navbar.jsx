@@ -26,7 +26,6 @@ export default function Design5Navbar() {
               Wellness Programs
             </Link>
           </li>
-
           <li>
             <Link href="/designs/5#about-us" className="hover:text-gray-300">
               About Us

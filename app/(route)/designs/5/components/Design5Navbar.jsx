@@ -21,9 +21,20 @@ export default function Design5Navbar() {
           Liberty Veterans
         </Link>
         <ul className="hidden md:flex gap-4 justify-center items-center p-4">
+        <li>
+            <Link href="/designs/5#programs" className="hover:text-gray-300">
+              Wellness Programs
+            </Link>
+          </li>
+
           <li>
             <Link href="/designs/5#about-us" className="hover:text-gray-300">
               About Us
+            </Link>
+          </li>
+          <li>
+            <Link href="/designs/5#latest-news" className="hover:text-gray-300">
+              Latest News
             </Link>
           </li>
           <li>
@@ -31,19 +42,6 @@ export default function Design5Navbar() {
               Join Us
             </Link>
           </li>
-
-          <li>
-            <Link href="/designs/5#programs" className="hover:text-gray-300">
-              Wellness Programs
-            </Link>
-          </li>
-
-          <li>
-            <Link href="/designs/5#latest-news" className="hover:text-gray-300">
-              Latest News
-            </Link>
-          </li>
-
           <li>
             <Link
               href="/designs/5#upcoming-events"
@@ -90,7 +88,7 @@ export default function Design5Navbar() {
       </div>
       {/* Mobile Menu */}
       <div
-        className={`z-50 fixed top-0 right-0 w-64 h-full bg-stone-700/80 backdrop-blur-md text-white transform ${
+        className={`z-50 fixed top-0 right-0 w-64 h-full bg-blue-900/80 backdrop-blur-md text-white transform ${
           isOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 ease-in-out md:hidden`}
       >
@@ -108,6 +106,15 @@ export default function Design5Navbar() {
           </svg>
         </button>
         <ul className="flex flex-col space-y-4 mt-10 ml-4">
+        <li>
+            <Link
+              href="/designs/5#programs"
+              onClick={handleCloseMenu}
+              className="hover:text-gray-300"
+            >
+              Wellness Programs
+            </Link>
+          </li>
           <li>
             <Link
               href="/designs/5#about-us"
@@ -115,20 +122,6 @@ export default function Design5Navbar() {
               className="hover:text-gray-300"
             >
               About Us
-            </Link>
-          </li>
-          <li>
-            <Link href="/designs/5#join-us" className="hover:text-gray-300">
-              Join Us
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/designs/5#programs"
-              onClick={handleCloseMenu}
-              className="hover:text-gray-300"
-            >
-              Wellness Programs
             </Link>
           </li>
           <li>
@@ -140,8 +133,12 @@ export default function Design5Navbar() {
               Latest News
             </Link>
           </li>
-
           <li>
+            <Link href="/designs/5#join-us" className="hover:text-gray-300">
+              Join Us
+            </Link>
+          </li>
+           <li>
             <Link
               href="/designs/5#upcoming-events"
               onClick={handleCloseMenu}
@@ -154,7 +151,7 @@ export default function Design5Navbar() {
           <li>
             <Link
               href="/designs/5"
-              className="bg-blue-500 text-white py-2 px-4 rounded-none mt-4 hover:bg-stone-500 transition duration-200"
+              className="bg-blue-700 text-white py-2 px-4 rounded-none mt-4 hover:bg-blue-600 transition duration-200"
               onClick={handleCloseMenu}
             >
               Donate

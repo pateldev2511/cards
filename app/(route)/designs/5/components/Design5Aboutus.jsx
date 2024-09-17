@@ -43,13 +43,13 @@ export default function Design5Aboutus() {
             <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
               <div className="border border-gray-200 rounded-lg overflow-hidden shadow-lg bg-zinc-50">
                 <img
-                  src="/d5/c3.jpg"
+                  src="/d5/a1.jpg"
                   alt="Team Member 1"
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-gray-900">
-                    Elisia jones
+                     Justin Jonsen
                   </h3>
                   <p className="text-gray-500 mt-2">
                     Founder & CEO 
@@ -59,7 +59,7 @@ export default function Design5Aboutus() {
 
               <div className="border border-gray-200 rounded-lg overflow-hidden shadow-lg bg-zinc-50">
                 <img
-                  src="/d5/c1.jpg"
+                  src="/d5/a2.jpg"
                   alt="Team Member 2"
                   className="w-full h-48 object-cover"
                 />
@@ -75,7 +75,7 @@ export default function Design5Aboutus() {
 
               <div className="border border-gray-200 rounded-lg overflow-hidden shadow-lg bg-zinc-50">
                 <img
-                  src="/d5/c2.jpg"
+                  src="/d5/a3.jpg"
                   alt="Team Member 3"
                   className="w-full h-48 object-cover"
                 />

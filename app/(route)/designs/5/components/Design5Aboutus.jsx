@@ -25,7 +25,7 @@ export default function Design5Aboutus() {
                 Restoring the Warrior Spirit
               </h2>
               <p className="text-lg text-white">
-              The Liberty Veterans Foundation, a 501(c)(3) non-profit, was founded by veterans and their families with over a century of combined military experience, primarily in Special Operations. Our team includes physicians, licensed professionals, veteran families, and community leaders, all dedicated to addressing the unique challenges faced by veterans. We aim to create a comprehensive care clinic to provide holistic support for their health and recovery.
+              The Liberty Veterans Foundation, a 501(c)(3) non-profit, was established by veterans with extensive Special Operations experience. Our team of physicians, licensed professionals, veteran families, and community leaders is committed to offering holistic care for veterans’ health and recovery.
               </p>
             </section>
 
@@ -35,7 +35,7 @@ export default function Design5Aboutus() {
                 Introducing the Liberty Veterans Wellness Campus (LVWC)
               </h2>
               <p className="text-lg text-white">
-              The Liberty Veterans Wellness Campus (LVWC), launched on September 1, 2024, provides a holistic approach to veteran and family health on a scenic 55-acre estate in Jackson, TN. It features medical and psychological clinics, a state-of-the-art gym, and spaces for mindfulness and artistic expression. LVWC fosters community engagement through events, expert programming, and volunteer support, honoring those who have served.
+              The Liberty Veterans Wellness Campus (LVWC), opened on September 1, 2024, provides a holistic health approach for veterans and families on a 55-acre estate in Jackson, TN, featuring medical clinics, a gym, and spaces for mindfulness and art.
               </p>
             </section>
 
@@ -83,7 +83,7 @@ export default function Design5Aboutus() {
                 />
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-gray-800">
-                    Robert Harish
+                  Roberta Harish
                   </h3>
                   <p className="text-gray-500 mt-2">
                     Community Outreach Coordinator 

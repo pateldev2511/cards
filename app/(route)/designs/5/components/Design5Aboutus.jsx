@@ -41,7 +41,7 @@ export default function Design5Aboutus() {
 
             {/* Team Section */}
             <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-              <div className="border border-gray-200 rounded-lg overflow-hidden shadow-lg bg-zinc-50">
+              <div className="border border-blue-700 rounded-lg overflow-hidden shadow-lg bg-zinc-50">
                 <img
                   src="/d5/a1.jpg"
 
@@ -58,7 +58,7 @@ export default function Design5Aboutus() {
                 </div>
               </div>
 
-              <div className="border border-gray-200 rounded-lg overflow-hidden shadow-lg bg-zinc-50">
+              <div className="border border-blue-700 rounded-lg overflow-hidden shadow-lg bg-zinc-50">
                 <img
 
                   src="/d5/a2.jpg"
@@ -75,7 +75,7 @@ export default function Design5Aboutus() {
                 </div>
               </div>
 
-              <div className="border border-gray-200 rounded-lg overflow-hidden shadow-lg bg-zinc-50">
+              <div className="border border-blue-700 rounded-lg overflow-hidden shadow-lg bg-zinc-50">
                 <img
                   src="/d5/a3.jpg"
                   alt="Team Member 3"

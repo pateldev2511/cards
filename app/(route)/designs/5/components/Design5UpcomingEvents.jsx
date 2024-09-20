@@ -25,7 +25,7 @@ export default function Design5UpcomingEvents() {
         {events.map((event, index) => (
           <div
             key={index}
-            className="flex flex-col md:flex-row justify-center items-center border-b pb-4"
+            className="flex flex-col md:flex-row justify-center items-center  pb-4"
           >
             <div className="text-center md:text-left md:w-1/2">
               <p className="text-gray-500">{event.date}</p>

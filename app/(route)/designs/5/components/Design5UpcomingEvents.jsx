@@ -40,11 +40,6 @@ export default function Design5UpcomingEvents() {
           </div>
         ))}
       </div>
-      <div className="flex justify-center mt-6">
-        <button className="bg-blue-700 text-white py-2 px-6 rounded hover:bg-blue-600 transition duration-200">
-          Register Now
-        </button>
-      </div>
     </div>
   );
 }
